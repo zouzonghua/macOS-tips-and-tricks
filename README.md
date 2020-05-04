@@ -88,8 +88,8 @@ brew cask install thunder
 # 【必装】dozer - Hide status bar icons on macOS.
 brew cask install dozer
 
-# 【必装】spectacle - Spectacle allows you to organize your windows without using a mouse.
-brew cask install spectacle
+# 【必装】Rectangle - Move and resize windows in macOS using keyboard shortcuts or snap areas
+brew cask install rectangle
 
 # 【必装】v2rayx - V2RayX: A simple GUI for V2Ray on macOS.
 brew cask install v2rayx
