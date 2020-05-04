@@ -85,8 +85,8 @@ brew cask install teamviewer
 # 【必装】thunder - Mac迅雷 - 轻体验，大改变。
 brew cask install thunder
 
-# 【必装】dozer - Hide status bar icons on macOS.
-brew cask install dozer
+# 【必装】HiddenBar - An ultra-light MacOS utility that helps hide menu bar icons.
+brew cask install hiddenbar
 
 # 【必装】Rectangle - Move and resize windows in macOS using keyboard shortcuts or snap areas
 brew cask install rectangle
