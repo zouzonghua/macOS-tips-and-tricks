@@ -26,6 +26,10 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # 【必装】Node.js® - 是一个基于Chrome V8 引擎 的JavaScript 运行时。
 brew install node
 
+# 【必装】AdoptOpenJDK - 是一个由OpenJDK构建，并以免费软件的形式提供社区版的 OpenJDK 二进制包。 它至少提供 4 年的免费长期支持(LTS)。 CentOS7.5和EulerOS2.8操作系统在鲲鹏生态中可以完整运行AdoptOpenJDK的全部功能。
+brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk8
+
 # 【必装】 npm源切换工具
 npm i -g nrm
 nrm use taobao
@@ -113,10 +117,12 @@ https://drive.google.com/open?id=1c7JPTklh0yqNj69JzqlZlf5Pqbmsse8T
 #### 开发相关
 
 ```shell
+
 # 生成ssh key并加入git账户
 ssh-keygen # 一路回车即可
-cat ~/.ssh/id_rsa.pub | clipcopy
+
 # 粘贴到自己git账号设置里的ssh-key
+cat ~/.ssh/id_rsa.pub | clipcopy
 ```
 
 
