@@ -106,6 +106,9 @@ brew cask install mos
 # 【必装】Fliqlo - 一个翻页时钟屏保。
 brew cask install fliqlo
 
+# 【必装】tinymediamanager - 影片信息搜刮神器！家庭影院必备！。
+brew cask install tinymediamanager
+
 # 【必装】ToothFairy 2.6.1 一键切换连接蓝牙设备。
 https://drive.google.com/open?id=1yF6grSQ-uN-C2Xx-oQJrCDUlG1-_Awyq
 
