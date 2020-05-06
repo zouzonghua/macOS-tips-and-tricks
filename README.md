@@ -112,9 +112,6 @@ brew cask install fliqlo
 # 【必装】ToothFairy 2.6.1 一键切换连接蓝牙设备。
 https://drive.google.com/open?id=1yF6grSQ-uN-C2Xx-oQJrCDUlG1-_Awyq
 
-# 【必装】PopClip 2019.10 不止让复制变得更简单。
-https://drive.google.com/open?id=1cUV5XkWiIEhC8gamjz_oaQuhG_iwPMNK
-
 # 【必装】Navicat Premium 12.1.28 强大的数据库管理工具。
 https://drive.google.com/open?id=1c7JPTklh0yqNj69JzqlZlf5Pqbmsse8T
 
