@@ -9,6 +9,7 @@
 - 修改密码: 系统偏好设置 - 用户与群组 - 更改密码
 - 【危险】修改用户名: 系统偏好设置 - 用户与群组 - 点击左下角解锁 - 用户名上双指轻点 - 高级选项
 - 电脑改名: 系统偏好设置 - 共享 - 电脑名称
+- 控制音频切换: 系统偏好设置 - 声音 - 在菜单中显示音量 
 
 #### 常见问题
 
@@ -108,9 +109,6 @@ brew cask install tinymediamanager
 
 # 【必装】Fliqlo - 一个翻页时钟屏保。
 brew cask install fliqlo
-
-# 【必装】ToothFairy 2.6.1 一键切换连接蓝牙设备。
-https://drive.google.com/open?id=1yF6grSQ-uN-C2Xx-oQJrCDUlG1-_Awyq
 
 # 【必装】Navicat Premium 12.1.28 强大的数据库管理工具。
 https://drive.google.com/open?id=1c7JPTklh0yqNj69JzqlZlf5Pqbmsse8T
