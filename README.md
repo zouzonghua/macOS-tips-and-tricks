@@ -23,6 +23,9 @@
 # 【必装】oh-my-zsh - 更强大的终端Shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# 【必装】iTerm2 - 是一款完全免费的，专为Mac OS 用户打造的命令行应用。
+brew cask install iterm2
+
 # 【必装】Node.js® - 是一个基于Chrome V8 引擎 的JavaScript 运行时。
 brew install node
 
@@ -57,9 +60,6 @@ brew cask install wechatwebdevtools
 
 # 【必装】Google Chrome - 是由Google开发的免费网页浏览器。
 brew cask install google-chrome
-
-# 【必装】iTerm2 - 是一款完全免费的，专为Mac OS 用户打造的命令行应用。
-brew cask install iterm2
 
 # 【必装】Typora - 是一款支持实时预览的Markdown 文本编辑器。
 brew cask install typora
