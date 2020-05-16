@@ -117,11 +117,14 @@ https://drive.google.com/open?id=1c7JPTklh0yqNj69JzqlZlf5Pqbmsse8T
 
 ```shell
 
-# 生成ssh key并加入git账户
+# 生成 ssh key 并加入 git 账户
 ssh-keygen # 一路回车即可
 
-# 粘贴到自己git账号设置里的ssh-key
+# 粘贴到自己 git 账号设置里的 ssh-key
 cat ~/.ssh/id_rsa.pub | clipcopy
+
+# 粘贴到 iterm2 配置 ssh 登陆服务器
+ssh-copy-id -i id_rsa root@www.zonghua.me
 ```
 
 
