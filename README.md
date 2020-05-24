@@ -25,12 +25,15 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # 【必装】iTerm2 - 是一款完全免费的，专为Mac OS 用户打造的命令行应用。
 brew cask install iterm2
 
-# 【必装】Node.js® - 是一个基于Chrome V8 引擎 的JavaScript 运行时。
-brew install node
-
 # 【必装】AdoptOpenJDK - 是一个由OpenJDK构建，并以免费软件的形式提供社区版的 OpenJDK 二进制包。 它至少提供 4 年的免费长期支持(LTS)。 CentOS7.5和EulerOS2.8操作系统在鲲鹏生态中可以完整运行AdoptOpenJDK的全部功能。
 brew tap AdoptOpenJDK/openjdk
 brew cask install adoptopenjdk8
+
+# 【必装】n - 管理多个Node版本的工具。
+brew install n
+
+# 【必装】Node.js® - 是一个基于Chrome V8 引擎 的JavaScript 运行时。
+n stable
 
 # 【必装】 npm源切换工具
 npm i -g nrm
