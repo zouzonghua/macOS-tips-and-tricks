@@ -41,7 +41,7 @@ nrm use taobao
 nrm use npm
 
 # 【必装】 yarn - 快速、可靠、安全的依赖管理工具。
-brew install yarn
+npm i -g yarn
 
 # 【必装】unrar - 解压RAR工具
 brew install unrar
