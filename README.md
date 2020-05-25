@@ -105,9 +105,6 @@ brew cask install snipaste
 # 【必装】mos - 一个用于在 MacOS 上平滑你的鼠标滚动效果或单独设置滚动方向的小工具, 让你的滚轮爽如触控板。
 brew cask install mos
 
-# 【必装】NTFSTool - NTFS硬盘读写工具
-brew cask install ntfstool
-
 # 【必装】tinymediamanager - 影片信息搜刮神器, 家庭影院必备。
 brew cask install tinymediamanager
 
