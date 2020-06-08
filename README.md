@@ -82,12 +82,6 @@ brew cask install iina
 # 【必装】neteasemusic - 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。
 brew cask install neteasemusic
 
-# 【必装】teamviewer - 远程控制和远程支持领域的新标准。
-brew cask install teamviewer
-
-# 【必装】thunder - Mac迅雷 - 轻体验，大改变。
-brew cask install thunder
-
 # 【必装】HiddenBar - An ultra-light MacOS utility that helps hide menu bar icons.
 brew cask install hiddenbar
 
