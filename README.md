@@ -22,6 +22,9 @@
 # 【必装】oh-my-zsh - 更强大的终端Shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# 【必装】brew-cask-upgrade is a command-line tool for upgrading every outdated app installed by Homebrew Cask.。
+brew-cask-upgrade
+
 # 【必装】iTerm2 - 是一款完全免费的，专为Mac OS 用户打造的命令行应用。
 brew cask install iterm2
 
