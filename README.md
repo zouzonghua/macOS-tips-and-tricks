@@ -35,11 +35,6 @@ brew install n
 # 【必装】Node.js® - 是一个基于Chrome V8 引擎 的JavaScript 运行时。
 n stable
 
-# 【必装】 npm源切换工具
-npm i -g nrm
-nrm use taobao
-nrm use npm
-
 # 【必装】 yarn - 快速、可靠、安全的依赖管理工具。
 npm i -g yarn
 
