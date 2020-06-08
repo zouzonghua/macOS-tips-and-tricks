@@ -25,6 +25,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # 【必装】iTerm2 - 是一款完全免费的，专为Mac OS 用户打造的命令行应用。
 brew cask install iterm2
 
+# 【必装】unrar - 解压RAR工具
+brew install unrar
+
 # 【必装】AdoptOpenJDK - 是一个由OpenJDK构建，并以免费软件的形式提供社区版的 OpenJDK 二进制包。 它至少提供 4 年的免费长期支持(LTS)。 CentOS7.5和EulerOS2.8操作系统在鲲鹏生态中可以完整运行AdoptOpenJDK的全部功能。
 brew tap AdoptOpenJDK/openjdk
 brew cask install adoptopenjdk8
@@ -38,13 +41,13 @@ n stable
 # 【必装】 yarn - 快速、可靠、安全的依赖管理工具。
 npm i -g yarn
 
-# 【必装】unrar - 解压RAR工具
-brew install unrar
-
 # 【必装】MongoDB - 是一种面向文档的数据库管理系统，用C++等语言撰写而成，以解决应用程序开发社区中的大量现实问题。
 brew tap mongodb/brew
 brew install mongodb-community
 brew services start mongodb-community
+
+# 【必装】MySQL - MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方面 MySQL 是最好的 RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。。
+brew install mysql@5.7
 
 # 【必装】Visual Studio Code - 是一个由微软开发，同时支持Windows 、 Linux和macOS等操作系统且开放源代码的代码编辑器，它支持测试，并内置了Git 版本控制功能，同时也具有开发环境功能，例如代码补全、代码片段和代码重构等。
 brew cask install visual-studio-code
