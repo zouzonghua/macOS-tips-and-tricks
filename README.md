@@ -118,6 +118,9 @@ https://drive.google.com/file/d/1t3KmVa5-m0-M9gbWIxpqEYnk9K8XvOmh/view?usp=shari
 # 【必装】Tunnelblick - Tunnelblick是OS X和macOS上用于OpenVPN（虚拟专用网络）的免费开源图形用户界面。它提供对OpenVPN客户端和/或服务器连接的轻松控制。
 https://mac.filehorse.com/download-tunnelblick/old-versions/
 
+# 【必装】Neat Reader - Neat Reader 是一款新世代 ePub 阅读器开启阅读全新体验。
+https://www.neat-reader.cn/downloads/mac
+
 ```
 
 #### 开发相关
