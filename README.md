@@ -64,6 +64,9 @@ brew cask install wechatwebdevtools
 # 【必装】Google Chrome - 是由Google开发的免费网页浏览器。
 brew cask install google-chrome
 
+# 【必装】Postman - Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.
+brew cask install postman
+
 # 【必装】Typora - 是一款支持实时预览的Markdown 文本编辑器。
 brew cask install typora
 
