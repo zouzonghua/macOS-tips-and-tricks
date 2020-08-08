@@ -55,6 +55,12 @@ brew install mysql@5.7
 # 【必装】Visual Studio Code - 是一个由微软开发，同时支持Windows 、 Linux和macOS等操作系统且开放源代码的代码编辑器，它支持测试，并内置了Git 版本控制功能，同时也具有开发环境功能，例如代码补全、代码片段和代码重构等。
 brew cask install visual-studio-code
 
+# 【必装】Sublime Text - A sophisticated text editor for code, markup and prose.
+brew cask install sublime-text
+
+# 【必装】Sublime Merge - Git Client, done Sublime.
+brew cask install sublime-merge
+
 # 【必备】IntelliJ IDEA - 是一种商业化销售的Java集成开发环境工具软件，由JetBrains软件公司开发，提供Apache 2.0开放式授权的社区版本以及专有软件的商业版本，开发者可选择其所需来下载使用。
 brew cask install intellij-idea
 
