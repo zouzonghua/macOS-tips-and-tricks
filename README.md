@@ -64,9 +64,6 @@ brew cask install wechatwebdevtools
 # 【必装】Google Chrome - 是由Google开发的免费网页浏览器。
 brew cask install google-chrome
 
-# 【必装】Typora - 是一款支持实时预览的Markdown 文本编辑器。
-brew cask install typora
-
 # 【必装】腾讯柠檬清理 - 全新Mac清理工具，实时了解Mac系统状况。
 brew cask install tencent-lemon
 
@@ -79,9 +76,6 @@ brew cask install qq
 # 【必装】IINA - 一个现代的 macOS 视频播放器。
 brew cask install iina
 
-# 【必装】neteasemusic - 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。
-brew cask install neteasemusic
-
 # 【必装】HiddenBar - An ultra-light MacOS utility that helps hide menu bar icons.
 brew cask install hiddenbar
 
@@ -93,9 +87,6 @@ brew cask install v2rayx
 
 # 【必装】bob - Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。
 brew cask install bob
-
-# 【必装】snipaste - Snipaste 是一个简单但强大的截图工具。
-brew cask install snipaste
 
 # 【必装】mos - 一个用于在 MacOS 上平滑你的鼠标滚动效果或单独设置滚动方向的小工具, 让你的滚轮爽如触控板。
 brew cask install mos
