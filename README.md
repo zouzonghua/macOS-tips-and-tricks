@@ -97,12 +97,6 @@ brew cask install mos
 # 【必装】Fliqlo - 一个翻页时钟屏保。
 brew cask install fliqlo
 
-# 【必装】tinymediamanager - 影片信息搜刮神器, 家庭影院必备。
-brew cask install tinymediamanager
-
-# 【必装】calibre - calibre是一个自由开源的电子书软件套装，可以用来组织、存放、以及管理电子书，支持大多数的电子书格式。同时也支持与许多流行的电子书阅读器进行同步，并可能在DRM的限制下转换电子书的格式。
-brew cask install calibre
-
 # 【必装】Navicat Premium 12.1.28 强大的数据库管理工具。
 https://drive.google.com/open?id=1c7JPTklh0yqNj69JzqlZlf5Pqbmsse8T
 
