@@ -83,8 +83,11 @@ brew cask install neteasemusic
 # 【必装】HiddenBar - An ultra-light MacOS utility that helps hide menu bar icons.
 brew cask install hiddenbar
 
-# 【必装】Rectangle - Move and resize windows in macOS using keyboard shortcuts or snap areas
+# 【必装】Rectangle - Move and resize windows in macOS using keyboard shortcuts or snap areas.
 brew cask install rectangle
+
+# 【必装】Karabiner-Elements - A powerful and stable keyboard customizer for macOS.
+ brew cask install karabiner-elements
 
 # 【必装】v2rayx - V2RayX: A simple GUI for V2Ray on macOS.
 brew cask install v2rayx
