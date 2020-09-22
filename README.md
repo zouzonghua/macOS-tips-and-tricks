@@ -83,6 +83,9 @@ brew cask install rectangle
 # 【必装】v2rayx - V2RayX: A simple GUI for V2Ray on macOS.
 brew cask install v2rayx
 
+# 【必装】Tunnelblick - Tunnelblick是OS X和macOS上用于OpenVPN（虚拟专用网络）的免费开源图形用户界面。它提供对OpenVPN客户端和/或服务器连接的轻松控制。
+brew cask install tunnelblick
+
 # 【必装】bob - Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。
 brew cask install bob
 
@@ -95,8 +98,6 @@ brew cask install fliqlo
 # 【必装】Navicat Premium 12.1.28 强大的数据库管理工具。
 https://drive.google.com/open?id=1c7JPTklh0yqNj69JzqlZlf5Pqbmsse8T
 
-# 【必装】Tunnelblick - Tunnelblick是OS X和macOS上用于OpenVPN（虚拟专用网络）的免费开源图形用户界面。它提供对OpenVPN客户端和/或服务器连接的轻松控制。
-https://mac.filehorse.com/download-tunnelblick/old-versions/
 
 ```
 
