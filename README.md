@@ -98,6 +98,9 @@ brew cask install mos
 # 【必装】Fliqlo - 一个翻页时钟屏保。
 brew cask install fliqlo
 
+# 【必装】Evernote - 一个工作必备效率应用。
+brew cask install evernote
+
 # 【必装】Navicat Premium 12.1.28 强大的数据库管理工具。
 https://drive.google.com/open?id=1c7JPTklh0yqNj69JzqlZlf5Pqbmsse8T
 
