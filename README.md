@@ -118,7 +118,7 @@ ssh-keygen # 一路回车即可
 cat ~/.ssh/id_rsa.pub | clipcopy
 
 # 粘贴到 iterm2 配置 ssh 免密登陆服务器
-ssh-copy-id -i id_rsa -p 22 root@www.zonghua.me
+ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 root@www.zonghua.me
 ```
 
 
