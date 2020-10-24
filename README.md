@@ -116,6 +116,10 @@ ssh-keygen # 一路回车即可
 # 粘贴到自己 git 账号设置里的 ssh-key
 cat ~/.ssh/id_rsa.pub | clipcopy
 
+# 配置用户信息
+git config --global user.name "zouzonghua"
+git config --global user.email "zouzonghua0511@gmail.com"
+
 # 粘贴到 iterm2 配置 ssh 免密登陆服务器
 ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 root@www.zonghua.me
 ```
