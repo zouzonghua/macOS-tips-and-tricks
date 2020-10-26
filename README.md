@@ -38,9 +38,6 @@ brew cask install adoptopenjdk8
 # 【必装】n - 管理多个Node版本的工具。
 brew install n
 
-# 【必装】Git - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-brew install git
-
 # 【必装】Node.js® - 是一个基于Chrome V8 引擎 的JavaScript 运行时。
 n stable
 
