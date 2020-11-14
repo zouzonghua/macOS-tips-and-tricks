@@ -93,8 +93,8 @@ brew cask install bob
 # 【必装】Typora - 是一款支持实时预览的Markdown 文本编辑器。
 brew cask install typora
 
-# 【必装】Navicat Premium 12.1.28 强大的数据库管理工具。
-https://drive.google.com/open?id=1c7JPTklh0yqNj69JzqlZlf5Pqbmsse8T
+# 【必装】mos - 一个用于在 MacOS 上平滑你的鼠标滚动效果或单独设置滚动方向的小工具, 让你的滚轮爽如触控板。
+brew cask install mos
 
 ```
 
