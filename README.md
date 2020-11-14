@@ -95,7 +95,6 @@ brew cask install typora
 # 【必装】Navicat Premium 12.1.28 强大的数据库管理工具。
 https://drive.google.com/open?id=1c7JPTklh0yqNj69JzqlZlf5Pqbmsse8T
 
-
 ```
 
 #### 开发相关
