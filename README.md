@@ -34,6 +34,7 @@ brew cask install iterm2
 brew install unrar
 
 # 【必装】AdoptOpenJDK - 是一个由OpenJDK构建，并以免费软件的形式提供社区版的 OpenJDK 二进制包。 它至少提供 4 年的免费长期支持(LTS)。 CentOS7.5和EulerOS2.8操作系统在鲲鹏生态中可以完整运行AdoptOpenJDK的全部功能。
+brew tap AdoptOpenJDK/openjdk
 brew cask install adoptopenjdk8
 
 # 【必装】nvm - 管理多个Node版本的工具。
