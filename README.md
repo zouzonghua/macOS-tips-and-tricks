@@ -36,11 +36,11 @@ brew install unrar
 # 【必装】AdoptOpenJDK - 是一个由OpenJDK构建，并以免费软件的形式提供社区版的 OpenJDK 二进制包。 它至少提供 4 年的免费长期支持(LTS)。 CentOS7.5和EulerOS2.8操作系统在鲲鹏生态中可以完整运行AdoptOpenJDK的全部功能。
 brew cask install adoptopenjdk8
 
-# 【必装】n - 管理多个Node版本的工具。
-brew install n
+# 【必装】nvm - 管理多个Node版本的工具。
+brew install nvm
 
 # 【必装】Node.js® - 是一个基于Chrome V8 引擎 的JavaScript 运行时。
-n stable
+nvm install --lts
 
 # 【必装】 yarn - 快速、可靠、安全的依赖管理工具。
 npm i -g yarn
@@ -71,11 +71,11 @@ brew cask install tencent-lemon
 # 【必装】微信 - 一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。
 brew cask install wechat
 
-# 【必装】IINA - 一个现代的 macOS 视频播放器。
-brew cask install iina
-
 # 【必装】neteasemusic - 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。
 brew cask install neteasemusic
+
+# 【必装】IINA - 一个现代的 macOS 视频播放器。
+brew cask install iina
 
 # 【必装】Rectangle - Move and resize windows in macOS using keyboard shortcuts or snap areas.
 brew cask install rectangle
