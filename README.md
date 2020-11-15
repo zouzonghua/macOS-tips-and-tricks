@@ -68,7 +68,7 @@ brew install robo-3t
 brew install mysql@5.7
 
 # 【必装】Sequel Pro - is a fast, easy-to-use Mac database management application for working with MySQL databases.
-brew install sequel-pro
+brew install sequel-pro-nightly
 
 # 【必装】Visual Studio Code - 是一个由微软开发，同时支持Windows 、 Linux和macOS等操作系统且开放源代码的代码编辑器，它支持测试，并内置了Git 版本控制功能，同时也具有开发环境功能，例如代码补全、代码片段和代码重构等。
 brew cask install visual-studio-code
