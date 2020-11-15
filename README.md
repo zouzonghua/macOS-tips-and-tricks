@@ -67,6 +67,9 @@ brew install robo-3t
 # 【必装】MySQL - MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方面 MySQL 是最好的 RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。。
 brew install mysql@5.7
 
+# 【必装】Sequel Pro - is a fast, easy-to-use Mac database management application for working with MySQL databases.
+brew install sequel-pro
+
 # 【必装】Visual Studio Code - 是一个由微软开发，同时支持Windows 、 Linux和macOS等操作系统且开放源代码的代码编辑器，它支持测试，并内置了Git 版本控制功能，同时也具有开发环境功能，例如代码补全、代码片段和代码重构等。
 brew cask install visual-studio-code
 
