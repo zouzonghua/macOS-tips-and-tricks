@@ -61,6 +61,9 @@ brew tap mongodb/brew
 brew install mongodb-community
 brew services start mongodb-community
 
+# 【必装】Robo 3T - Native cross-platform MongoDB management tool.
+brew install robo-3t
+
 # 【必装】MySQL - MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方面 MySQL 是最好的 RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。。
 brew install mysql@5.7
 
