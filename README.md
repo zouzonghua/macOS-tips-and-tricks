@@ -28,10 +28,10 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git clone https://github.com/rupa/z.git $ZSH_CUSTOM/plugins/z
 . $ZSH_CUSTOM/plugins/z/z.sh
 
-# zsh-autosuggestions - Fish-like autosuggestions for zsh.
+# 【必装】zsh-autosuggestions - Fish-like autosuggestions for zsh.
 git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
-# zsh-syntax-highlighting - Fish shell like syntax highlighting for Zsh.
+# 【必装】zsh-syntax-highlighting - Fish shell like syntax highlighting for Zsh.
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # 【必装】brew-cask-upgrade is a command-line tool for upgrading every outdated app installed by Homebrew Cask.
