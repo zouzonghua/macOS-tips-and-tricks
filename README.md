@@ -21,6 +21,9 @@
 # 【必装】安装 Homebrew - MacOS包管理器(命令行轻松装软件)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
+# 【必装】brew-cask-upgrade - is a command-line tool for upgrading every outdated app installed by Homebrew Cask.
+brew tap buo/cask-upgrade
+
 # 【必装】oh-my-zsh - 更强大的终端Shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -34,8 +37,8 @@ git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh
 # 【必装】zsh-syntax-highlighting - Fish shell like syntax highlighting for Zsh.
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-# 【必装】brew-cask-upgrade is a command-line tool for upgrading every outdated app installed by Homebrew Cask.
-brew tap buo/cask-upgrade
+# 【必装】tmux - is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached.
+brew install tmux
 
 # 【必装】iTerm2 - 是一款完全免费的，专为Mac OS 用户打造的命令行应用。
 brew cask install iterm2
@@ -81,6 +84,9 @@ brew cask install wechatwebdevtools
 
 # 【必装】Google Chrome - 是由Google开发的免费网页浏览器。
 brew cask install google-chrome
+
+# 【必装】wpsoffice - Free Editor for all-in-one Office Suite: Word, PDF, Excel, PowerPoint with wonderful editing experience.
+brew install wpsoffice
 
 # 【必装】腾讯柠檬清理 - 全新Mac清理工具，实时了解Mac系统状况。
 brew cask install tencent-lemon
