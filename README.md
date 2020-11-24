@@ -82,11 +82,17 @@ brew cask install intellij-idea
 # 【必备】wechatwebdevtools - 微信开发者工具，集成了公众号网页调试和小程序调试两种开发模式。
 brew cask install wechatwebdevtools
 
+# 【必装】youdaonote - 有道云笔记解决个人资料和信息跨平台跨地点的管理问题。
+brew cask install youdaonote
+
+# 【必装】Typora - 是一款支持实时预览的Markdown 文本编辑器。
+brew cask install typora
+
 # 【必装】Google Chrome - 是由Google开发的免费网页浏览器。
 brew cask install google-chrome
 
 # 【必装】wpsoffice - Free Editor for all-in-one Office Suite: Word, PDF, Excel, PowerPoint with wonderful editing experience.
-brew install wpsoffice
+brew cask install wpsoffice
 
 # 【必装】腾讯柠檬清理 - 全新Mac清理工具，实时了解Mac系统状况。
 brew cask install tencent-lemon
@@ -111,9 +117,6 @@ brew cask install tunnelblick
 
 # 【必装】bob - Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。
 brew cask install bob
-
-# 【必装】Typora - 是一款支持实时预览的Markdown 文本编辑器。
-brew cask install typora
 
 # 【必装】mos - 一个用于在 MacOS 上平滑你的鼠标滚动效果或单独设置滚动方向的小工具, 让你的滚轮爽如触控板。
 brew cask install mos
