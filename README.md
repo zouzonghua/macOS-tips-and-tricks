@@ -73,8 +73,8 @@ brew install mysql@5.7
 # 【必装】Sequel Pro - is a fast, easy-to-use Mac database management application for working with MySQL databases.
 brew install sequel-pro-nightly
 
-# 【必装】Visual Studio Code - 是一个由微软开发，同时支持Windows 、 Linux和macOS等操作系统且开放源代码的代码编辑器，它支持测试，并内置了Git 版本控制功能，同时也具有开发环境功能，例如代码补全、代码片段和代码重构等。
-brew cask install visual-studio-code
+# 【必装】WebStorm - 是jetbrains公司旗下一款JavaScript 开发工具。已经被广大中国JS开发者誉为“Web前端开发神器”、“最强大的HTML5编辑器”、“最智能的JavaScript IDE”等。与IntelliJ IDEA同源，继承了IntelliJ IDEA强大的JS部分的功能。
+brew cask install webstorm
 
 # 【必备】IntelliJ IDEA - 是一种商业化销售的Java集成开发环境工具软件，由JetBrains软件公司开发，提供Apache 2.0开放式授权的社区版本以及专有软件的商业版本，开发者可选择其所需来下载使用。
 brew cask install intellij-idea
@@ -84,6 +84,12 @@ brew cask install wechatwebdevtools
 
 # 【必装】youdaonote - 有道云笔记解决个人资料和信息跨平台跨地点的管理问题。
 brew cask install youdaonote
+
+# 【必装】youdaodict - 有道词典Mac版。
+brew cask install youdaodict
+
+# 【必装】neteasemusic - 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。
+brew cask install neteasemusic
 
 # 【必装】Typora - 是一款支持实时预览的Markdown 文本编辑器。
 brew cask install typora
@@ -99,9 +105,6 @@ brew cask install tencent-lemon
 
 # 【必装】微信 - 一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。
 brew cask install wechat
-
-# 【必装】neteasemusic - 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。
-brew cask install neteasemusic
 
 # 【必装】IINA - 一个现代的 macOS 视频播放器。
 brew cask install iina
