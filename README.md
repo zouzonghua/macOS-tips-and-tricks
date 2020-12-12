@@ -119,9 +119,6 @@ brew cask install tunnelblick --cask
 # 【必装】bob - Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。
 brew cask install bob --cask
 
-# 【必装】mos - 一个用于在 MacOS 上平滑你的鼠标滚动效果或单独设置滚动方向的小工具, 让你的滚轮爽如触控板。
-brew cask install mos --cask
-
 ```
 
 ## 开发相关
