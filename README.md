@@ -110,8 +110,8 @@ brew install iina --cask
 # 【必装】Rectangle - Move and resize windows in macOS using keyboard shortcuts or snap areas.
 brew install rectangle --cask
 
-# 【必装】v2rayx - V2RayX: A simple GUI for V2Ray on macOS.
-brew install v2rayx --cask
+# 必装】V2rayU - 基于v2ray核心的mac版客户端,用于科学上网,使用swift编写,支持vmess,shadowsocks,socks5等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等
+brew install v2rayu --cask
 
 # 【必装】Tunnelblick - Tunnelblick是OS X和macOS上用于OpenVPN（虚拟专用网络）的免费开源图形用户界面。它提供对OpenVPN客户端和/或服务器连接的轻松控制。
 brew install tunnelblick --cask
