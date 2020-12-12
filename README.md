@@ -42,14 +42,14 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 brew install tmux
 
 # 【必装】iTerm2 - 是一款完全免费的，专为Mac OS 用户打造的命令行应用。
-brew cask install iterm2 --cask
+brew install iterm2 --cask
 
 # 【必装】unrar - 解压RAR工具
 brew install unrar
 
 # 【必装】AdoptOpenJDK - 是一个由OpenJDK构建，并以免费软件的形式提供社区版的 OpenJDK 二进制包。 它至少提供 4 年的免费长期支持(LTS)。 CentOS7.5和EulerOS2.8操作系统在鲲鹏生态中可以完整运行AdoptOpenJDK的全部功能。
 brew tap AdoptOpenJDK/openjdk
-brew cask install adoptopenjdk8
+brew install adoptopenjdk8
 
 # 【必装】nvm - 管理多个Node版本的工具。
 brew install nvm
@@ -75,49 +75,49 @@ brew install robo-3t --cask
 brew install sequel-pro-nightly --cask
 
 # 【必装】Google Chrome - 是由Google开发的免费网页浏览器。
-brew cask install google-chrome --cask
+brew install google-chrome --cask
 
 # 【必装】Typora - 是一款支持实时预览的Markdown 文本编辑器。
-brew cask install typora --cask
+brew install typora --cask
 
 # Visual Studio Code - is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
 brew install visual-studio-code --cask
 
 # 【必备】IntelliJ IDEA - 是一种商业化销售的Java集成开发环境工具软件，由JetBrains软件公司开发，提供Apache 2.0开放式授权的社区版本以及专有软件的商业版本，开发者可选择其所需来下载使用。
-brew cask install intellij-idea --cask
+brew install intellij-idea --cask
 
 # 【必备】wechatwebdevtools - 微信开发者工具，集成了公众号网页调试和小程序调试两种开发模式。
-brew cask install wechatwebdevtools --cask
+brew install wechatwebdevtools --cask
 
 # 【必装】微信 - 一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。
-brew cask install wechat --cask
+brew install wechat --cask
 
 # 【必装】腾讯柠檬清理 - 全新Mac清理工具，实时了解Mac系统状况。
-brew cask install tencent-lemon --cask
+brew install tencent-lemon --cask
 
 # 【必装】youdaonote - 有道云笔记解决个人资料和信息跨平台跨地点的管理问题。
-brew cask install youdaonote --cask
+brew install youdaonote --cask
 
 # 【必装】neteasemusic - 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。
-brew cask install neteasemusic --cask
+brew install neteasemusic --cask
 
 # 【必装】wpsoffice - Free Editor for all-in-one Office Suite: Word, PDF, Excel, PowerPoint with wonderful editing experience.
-brew cask install wpsoffice --cask
+brew install wpsoffice --cask
 
 # 【必装】IINA - 一个现代的 macOS 视频播放器。
-brew cask install iina --cask
+brew install iina --cask
 
 # 【必装】Rectangle - Move and resize windows in macOS using keyboard shortcuts or snap areas.
-brew cask install rectangle --cask
+brew install rectangle --cask
 
 # 【必装】v2rayx - V2RayX: A simple GUI for V2Ray on macOS.
-brew cask install v2rayx --cask
+brew install v2rayx --cask
 
 # 【必装】Tunnelblick - Tunnelblick是OS X和macOS上用于OpenVPN（虚拟专用网络）的免费开源图形用户界面。它提供对OpenVPN客户端和/或服务器连接的轻松控制。
-brew cask install tunnelblick --cask
+brew install tunnelblick --cask
 
 # 【必装】bob - Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。
-brew cask install bob --cask
+brew install bob --cask
 
 ```
 
