@@ -41,9 +41,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # 【必装】tmux - is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached.
 brew install tmux
 
-# 【必装】iTerm2 - 是一款完全免费的，专为Mac OS 用户打造的命令行应用。
-brew install iterm2 --cask
-
 # 【必装】unrar - 解压RAR工具
 brew install unrar
 
