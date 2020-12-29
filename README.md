@@ -29,6 +29,9 @@ brew tap buo/cask-upgrade
 # 【必装】oh-my-zsh - 更强大的终端Shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# 【必装】WeChatExtension-ForMac - A plugin for Mac WeChat
+curl -o- -L https://omw.limingkai.cn/install.sh | bash -s
+
 # 【必装】z - jump around
 git clone https://github.com/rupa/z.git $ZSH_CUSTOM/plugins/z
 Put something like this in your $HOME/.bashrc or $HOME/.zshrc:
