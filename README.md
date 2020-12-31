@@ -138,6 +138,6 @@ cat ~/.ssh/id_rsa.pub | clipcopy
 git config --global user.name "zouzonghua"
 git config --global user.email "zouzonghua0511@gmail.com"
 
-# 粘贴到 iterm2 配置 ssh 免密登陆服务器
+# 粘贴到终端配置 ssh 免密登陆服务器
 ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 root@www.zonghua.me
 ```
