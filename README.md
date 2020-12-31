@@ -31,6 +31,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 # 【必装】WeChatExtension-ForMac - A plugin for Mac WeChat
 curl -o- -L https://omw.limingkai.cn/install.sh | bash -s
+omw -n
 
 # 【必装】z - jump around
 git clone https://github.com/rupa/z.git $ZSH_CUSTOM/plugins/z
