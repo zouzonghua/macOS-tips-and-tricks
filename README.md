@@ -80,9 +80,6 @@ brew install sequel-pro-nightly --cask
 # 【必装】Google Chrome - 是由Google开发的免费网页浏览器。
 brew install google-chrome --cask
 
-# 【必装】Typora - 是一款支持实时预览的Markdown 文本编辑器。
-brew install typora --cask
-
 # Visual Studio Code - is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
 brew install visual-studio-code --cask
 
