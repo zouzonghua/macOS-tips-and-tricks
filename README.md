@@ -125,8 +125,8 @@ brew install bob --cask
 
 ```shell
 
-# 更新所有软件和开发包
-brew update && brew upgrade && brew cu -a -y
+# 更新所有软件和开发包并删除过期包
+brew update && brew upgrade && brew cu -a -y && brew cleanup && brew cleanup --prune 0
 
 # 生成 ssh key 并加入 git 账户
 ssh-keygen # 一路回车即可
