@@ -83,10 +83,10 @@ brew install google-chrome --cask
 # Visual Studio Code - is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
 brew install visual-studio-code --cask
 
-# 【必备】IntelliJ IDEA - 是一种商业化销售的Java集成开发环境工具软件，由JetBrains软件公司开发，提供Apache 2.0开放式授权的社区版本以及专有软件的商业版本，开发者可选择其所需来下载使用。
+# 【必装】IntelliJ IDEA - 是一种商业化销售的Java集成开发环境工具软件，由JetBrains软件公司开发，提供Apache 2.0开放式授权的社区版本以及专有软件的商业版本，开发者可选择其所需来下载使用。
 brew install intellij-idea --cask
 
-# 【必备】wechatwebdevtools - 微信开发者工具，集成了公众号网页调试和小程序调试两种开发模式。
+# 【必装】wechatwebdevtools - 微信开发者工具，集成了公众号网页调试和小程序调试两种开发模式。
 brew install wechatwebdevtools --cask
 
 # 【必装】微信 - 一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。
