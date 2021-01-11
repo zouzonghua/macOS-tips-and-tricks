@@ -119,6 +119,9 @@ brew install tunnelblick --cask
 # 【必装】bob - Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。
 brew install bob --cask
 
+# 【必装】PicGo - A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder.
+brew install picgo --cask
+
 ```
 
 ## 开发相关
