@@ -125,9 +125,6 @@ brew install istat-menus --cask
 # 【必装】PicGo - A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder.
 brew install picgo --cask
 
-# 【必装】Stand - Just a simple app for your Mac that reminds you to stand up once an hour.
-brew install stand --cask
-
 ```
 
 ## 开发相关
