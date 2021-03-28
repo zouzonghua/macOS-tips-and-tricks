@@ -75,7 +75,7 @@ brew install mysql@5.7
 brew install robo-3t --cask
 
 # 【必装】Sequel Pro - is a fast, easy-to-use Mac database management application for working with MySQL databases.
-brew install sequel-pro-nightly --cask
+brew install homebrew/cask-versions/sequel-pro-nightly --cask 
 
 # 【必装】Google Chrome - 是由Google开发的免费网页浏览器。
 brew install google-chrome --cask
