@@ -131,6 +131,9 @@ brew install --cask hiddenbar
 # 【必装】react-native-debugger - The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools
 brew install --cask react-native-debugger
 
+# 【必装】dingtalk - Ding Talk, Make Work and Study Easy
+brew install --cask dingtalk
+
 
 ```
 
