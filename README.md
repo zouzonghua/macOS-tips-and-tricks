@@ -125,6 +125,9 @@ brew install istat-menus --cask
 # 【必装】PicGo - A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder.
 brew install picgo --cask
 
+# 【必装】hiddenbar - An ultra-light MacOS utility that helps hide menu bar icons
+brew install hiddenbar --cask
+
 ```
 
 ## 开发相关
