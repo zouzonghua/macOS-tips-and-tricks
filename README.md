@@ -134,6 +134,9 @@ brew install --cask react-native-debugger
 # 【必装】dingtalk - Ding Talk, Make Work and Study Easy
 brew install --cask dingtalk
 
+# 【必装】HandShaker - Manage Your Android Phones at Ease 
+brew install --cask handshaker
+
 
 ```
 
