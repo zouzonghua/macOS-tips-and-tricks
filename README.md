@@ -72,61 +72,65 @@ brew services start mongodb-community
 brew install mysql@5.7
 
 # 【必装】Robo 3T - Native cross-platform MongoDB management tool.
-brew install robo-3t --cask
+brew install --cask robo-3t
 
 # 【必装】Sequel Pro - is a fast, easy-to-use Mac database management application for working with MySQL databases.
-brew install homebrew/cask-versions/sequel-pro-nightly --cask 
+brew install --cask homebrew/cask-versions/sequel-pro-nightly
 
 # 【必装】Google Chrome - 是由Google开发的免费网页浏览器。
-brew install google-chrome --cask
+brew install --cask google-chrome
 
 # Visual Studio Code - is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
-brew install visual-studio-code --cask
+brew install --cask visual-studio-code
 
 # 【必装】IntelliJ IDEA - 是一种商业化销售的Java集成开发环境工具软件，由JetBrains软件公司开发，提供Apache 2.0开放式授权的社区版本以及专有软件的商业版本，开发者可选择其所需来下载使用。
-brew install intellij-idea --cask
+brew install --cask intellij-idea
 
 # 【必装】wechatwebdevtools - 微信开发者工具，集成了公众号网页调试和小程序调试两种开发模式。
-brew install wechatwebdevtools --cask
+brew install --cask wechatwebdevtools
 
 # 【必装】微信 - 一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。
-brew install wechat --cask
+brew install --cask wechat
 
 # 【必装】腾讯柠檬清理 - 全新Mac清理工具，实时了解Mac系统状况。
-brew install tencent-lemon --cask
+brew install --cask tencent-lemon
 
 # 【必装】youdaonote - 有道云笔记解决个人资料和信息跨平台跨地点的管理问题。
-brew install youdaonote --cask
+brew install --cask youdaonote
 
 # 【必装】neteasemusic - 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。
-brew install neteasemusic --cask
+brew install --cask neteasemusic
 
 # 【必装】wpsoffice - Free Editor for all-in-one Office Suite: Word, PDF, Excel, PowerPoint with wonderful editing experience.
-brew install wpsoffice --cask
+brew install --cask wpsoffice
 
 # 【必装】IINA - 一个现代的 macOS 视频播放器。
-brew install iina --cask
+brew install --cask iina
 
 # 【必装】Rectangle - Move and resize windows in macOS using keyboard shortcuts or snap areas.
-brew install rectangle --cask
+brew install --cask rectangle
 
 # 【必装】V2rayU - 基于v2ray核心的mac版客户端,用于科学上网,使用swift编写,支持vmess,shadowsocks,socks5等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等
-brew install v2rayu --cask
+brew install --cask v2rayu
 
 # 【必装】Tunnelblick - Tunnelblick是OS X和macOS上用于OpenVPN（虚拟专用网络）的免费开源图形用户界面。它提供对OpenVPN客户端和/或服务器连接的轻松控制。
-brew install tunnelblick --cask
+brew install --cask tunnelblick
 
 # 【必装】bob - Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。
-brew install bob --cask
+brew install --cask bob
 
 # 【必装】istat-menus - istat-menus  An advanced Mac system monitor for your menubar
-brew install istat-menus --cask
+brew install --cask istat-menus
 
 # 【必装】PicGo - A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder.
-brew install picgo --cask
+brew install --cask picgo
 
 # 【必装】hiddenbar - An ultra-light MacOS utility that helps hide menu bar icons
-brew install hiddenbar --cask
+brew install --cask hiddenbar
+
+# 【必装】react-native-debugger - The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools
+brew install --cask react-native-debugger
+
 
 ```
 
