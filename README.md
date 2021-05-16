@@ -95,9 +95,6 @@ brew install --cask wechat
 # 【必装】腾讯柠檬清理 - 全新Mac清理工具，实时了解Mac系统状况。
 brew install --cask tencent-lemon
 
-# 【必装】youdaonote - 有道云笔记解决个人资料和信息跨平台跨地点的管理问题。
-brew install --cask youdaonote
-
 # 【必装】neteasemusic - 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。
 brew install --cask neteasemusic
 
