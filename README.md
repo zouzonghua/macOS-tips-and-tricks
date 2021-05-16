@@ -125,6 +125,9 @@ brew install --cask picgo
 # 【必装】hiddenbar - An ultra-light MacOS utility that helps hide menu bar icons
 brew install --cask hiddenbar
 
+# 【必装】Mos - A lightweight tool used to smooth scrolling and set scroll direction independently for your mouse on macOS
+brew install --cask mos
+
 # 【必装】react-native-debugger - The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools
 brew install --cask react-native-debugger
 
