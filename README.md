@@ -137,6 +137,9 @@ brew install --cask dingtalk
 # 【必装】HandShaker - Manage Your Android Phones at Ease 
 brew install --cask handshaker
 
+# 【必装】clashx - A rule based proxy For Mac base on Clash.
+brbrew install --cask clashx
+
 
 ```
 
