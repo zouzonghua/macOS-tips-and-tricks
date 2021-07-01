@@ -166,3 +166,8 @@ git config --global user.email "zouzonghua.cn@gmail.com"
 # 粘贴到终端配置 ssh 免密登陆服务器
 ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 root@www.zouzonghua.cn
 ```
+## 配置文件
+
+- [zsh](https://github.com/zouzonghua/.config/blob/main/.zshrc)
+- [tmux](https://github.com/zouzonghua/.config/blob/main/.tmux.conf)
+- [vim](https://github.com/zouzonghua/vim)
