@@ -141,7 +141,7 @@ brew install --cask dingtalk
 brew install --cask handshaker
 
 # 【必装】clashx - A rule based proxy For Mac base on Clash.
-brbrew install --cask clashx
+brew install --cask clashx
 
 
 ```
