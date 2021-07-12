@@ -92,10 +92,10 @@ brew install --cask android-studio
 # 【必装】wechatwebdevtools - 微信开发者工具，集成了公众号网页调试和小程序调试两种开发模式。
 brew install --cask wechatwebdevtools
 
-# 【必装】微信 - 一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。
+# 【必装】wechat - 一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。
 brew install --cask wechat
 
-# 【必装】腾讯柠檬清理 - 全新Mac清理工具，实时了解Mac系统状况。
+# 【必装】tencent-lemon - 全新Mac清理工具，实时了解Mac系统状况。
 brew install --cask tencent-lemon
 
 # 【必装】neteasemusic - 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。
