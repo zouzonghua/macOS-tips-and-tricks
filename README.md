@@ -95,6 +95,9 @@ brew install --cask wechatwebdevtools
 # 【必装】wechat - 一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。
 brew install --cask wechat
 
+# 【必装】qq - I'm QQ - 每一天，乐在沟通。
+brew install --cask qq
+
 # 【必装】tencent-lemon - 全新Mac清理工具，实时了解Mac系统状况。
 brew install --cask tencent-lemon
 
