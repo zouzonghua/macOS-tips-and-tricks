@@ -104,6 +104,9 @@ brew install --cask neteasemusic
 # 【必装】wpsoffice - Free Editor for all-in-one Office Suite: Word, PDF, Excel, PowerPoint with wonderful editing experience.
 brew install --cask wpsoffice
 
+# 【必装】dingtalk - Ding Talk, Make Work and Study Easy
+brew install --cask dingtalk
+
 # 【必装】IINA - 一个现代的 macOS 视频播放器。
 brew install --cask iina
 
@@ -133,9 +136,6 @@ brew install --cask mos
 
 # 【必装】react-native-debugger - The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools
 brew install --cask react-native-debugger
-
-# 【必装】dingtalk - Ding Talk, Make Work and Study Easy
-brew install --cask dingtalk
 
 # 【必装】HandShaker - Manage Your Android Phones at Ease 
 brew install --cask handshaker
