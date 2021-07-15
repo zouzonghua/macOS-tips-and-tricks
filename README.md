@@ -89,6 +89,9 @@ brew install --cask intellij-idea
 # 【必装】Android Studio是一个为Android平台开发程序的集成开发环境。2013年5月16日在Google I/O上发布，可供开发者免费使用。 2013年5月发布早期预览版本，版本号为0.1。2014年6月发布0.8版本，至此进入beta阶段。第一个稳定版本1.0于2014年12月8日发布。
 brew install --cask android-studio
 
+# 【必装】Typora - 是一款支持实时预览的Markdown 文本编辑器。
+brew install typora --cask
+
 # 【必装】wechatwebdevtools - 微信开发者工具，集成了公众号网页调试和小程序调试两种开发模式。
 brew install --cask wechatwebdevtools
 
