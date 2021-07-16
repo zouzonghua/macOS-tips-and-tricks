@@ -77,6 +77,9 @@ brew install --cask robo-3t
 # 【必装】Sequel Pro - is a fast, easy-to-use Mac database management application for working with MySQL databases.
 brew install --cask homebrew/cask-versions/sequel-pro-nightly
 
+# 【必装】VMware Fusion - VMware Fusion是VMware为苹果电脑开发的虚拟机程序，它允许用户在中央处理器为英特尔的苹果电脑的MacOS操作系统上运行其他操作系统，例如Microsoft Windows、Linux、NetWare、Solaris等。VMware Fusion 1.0于2007年8月6日发布。
+ brew install vmware-fusion
+
 # 【必装】Google Chrome - 是由Google开发的免费网页浏览器。
 brew install --cask google-chrome
 
@@ -90,7 +93,7 @@ brew install --cask intellij-idea
 brew install --cask android-studio
 
 # 【必装】Typora - 是一款支持实时预览的Markdown 文本编辑器。
-brew install typora --cask
+brew install --cask typora
 
 # 【必装】wechatwebdevtools - 微信开发者工具，集成了公众号网页调试和小程序调试两种开发模式。
 brew install --cask wechatwebdevtools
