@@ -6,12 +6,14 @@
 
 - 触摸板轻触和右键: 系统偏好设置 - 触控板 - 光标与点按 - 勾选 `轻点来点按` 和 `辅助点按`（双指点按或轻点）
 - 三指拖移: 系统偏好设置 - 辅助功能 - 指针控制 - 触控板选项 - 启用拖移 - 三指拖移
-- 修改密码: 系统偏好设置 - 用户与群组 - 更改密码
-- 修改用户名: 系统偏好设置 - 用户与群组 - 点击左下角解锁 - 用户名上双指轻点 - 高级选项
-- 电脑改名: 系统偏好设置 - 共享 - 电脑名称
-- 控制音频切换: 系统偏好设置 - 声音 - 在菜单中显示音量
 - 取消自动重新排列空间: 系统偏好设置 - 调度中心 - 取消勾选 `根据最近使用情况自动重新排列空间`
 - Tab 键移动焦点: 系统偏好设置 - 键盘 - 快捷键 - 全键盘控制 `所有控制`
+- 控制音频切换: 系统偏好设置 - 声音 - 在菜单中显示音量
+- 修改密码: 系统偏好设置 - 用户与群组 - 更改密码
+- 修改用户名: 系统偏好设置 - 用户与群组 - 点击左下角解锁 - 用户名上双指轻点 - 高级选项
+- 修改电脑名称: 系统偏好设置 - 共享 - 电脑名称
+
+
 
 ## 常见问题
 
@@ -28,10 +30,6 @@ brew tap buo/cask-upgrade
 
 # 【必装】oh-my-zsh - 更强大的终端Shell
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# 【必装】WeChatExtension-ForMac - A plugin for Mac WeChat
-curl -o- -L https://omw.limingkai.cn/install.sh | bash -s
-omw -n
 
 # 【必装】z - jump around
 git clone https://github.com/rupa/z.git $ZSH_CUSTOM/plugins/z
