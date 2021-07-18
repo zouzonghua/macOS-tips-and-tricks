@@ -53,6 +53,9 @@ brew install carlocab/personal/unrar
 brew tap AdoptOpenJDK/openjdk
 brew install adoptopenjdk8
 
+# 【必装】docker - Docker 是一个开放源代码软件，是一个开放平台，用于开发应用、交付应用、运行应用。 Docker允许用户将基础设施中的应用单独分割出来，形成更小的颗粒，从而提高交付软件的速度。 Docker容器与虚拟机类似，但二者在原理上不同。
+brew install docker
+
 # 【必装】nvm - 管理多个Node版本的工具。
 brew install nvm
 
