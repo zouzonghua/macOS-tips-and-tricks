@@ -13,8 +13,6 @@
 - 修改用户名: 系统偏好设置 - 用户与群组 - 点击左下角解锁 - 用户名上双指轻点 - 高级选项
 - 修改电脑名称: 系统偏好设置 - 共享 - 电脑名称
 
-
-
 ## 常见问题
 
 - “文件已损坏”?: 终端输入 `sudo spctl --master-disable` ，系统偏好设置 - 安全性与隐私 - 通用 - 允许“任何来源”
@@ -88,7 +86,7 @@ brew install --cask google-chrome
 brew install --cask visual-studio-code
 
 # 【必装】IntelliJ IDEA - 是一种商业化销售的Java集成开发环境工具软件，由JetBrains软件公司开发，提供Apache 2.0开放式授权的社区版本以及专有软件的商业版本，开发者可选择其所需来下载使用。
-brew install --cask intellij-idea
+brew install --cask intellij-idea-ce
 
 # 【必装】Android Studio是一个为Android平台开发程序的集成开发环境。2013年5月16日在Google I/O上发布，可供开发者免费使用。 2013年5月发布早期预览版本，版本号为0.1。2014年6月发布0.8版本，至此进入beta阶段。第一个稳定版本1.0于2014年12月8日发布。
 brew install --cask android-studio
