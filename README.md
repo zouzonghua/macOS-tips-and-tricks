@@ -120,7 +120,7 @@ brew install --cask wpsoffice
 # 【必装】dingtalk - Ding Talk, Make Work and Study Easy
 brew install --cask dingtalk
 
-# 【必装】IINA - 一个现代的 macOS 视频播放器。
+# 【必装】IINA - is born to be a modern macOS application, from its framework to the user interface. It adopts the post-Yosemite design language of macOS and keeps up the pace of new technologies like Force Touch, Touch Bar, and Picture-in-Picture.
 brew install --cask iina
 
 # 【必装】Rectangle - Move and resize windows in macOS using keyboard shortcuts or snap areas.
