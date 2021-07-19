@@ -35,7 +35,7 @@ Put something like this in your $HOME/.bashrc or $HOME/.zshrc:
 . $ZSH_CUSTOM/plugins/z/z.sh
 
 # 【必装】zsh-autosuggestions - Fish-like autosuggestions for zsh.
-git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
 # 【必装】zsh-syntax-highlighting - Fish shell like syntax highlighting for Zsh.
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
