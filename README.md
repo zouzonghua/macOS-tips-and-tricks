@@ -97,6 +97,9 @@ brew install --cask android-studio
 # 【必装】Typora - 是一款支持实时预览的Markdown 文本编辑器。
 brew install --cask typora
 
+# 【必装】react-native-debugger - The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools
+brew install --cask react-native-debugger
+
 # 【必装】wechatwebdevtools - 微信开发者工具，集成了公众号网页调试和小程序调试两种开发模式。
 brew install --cask wechatwebdevtools
 
@@ -136,24 +139,14 @@ brew install --cask bob
 # 【必装】istat-menus - istat-menus  An advanced Mac system monitor for your menubar
 brew install --cask istat-menus
 
-# 【必装】PicGo - A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder.
-brew install --cask picgo
-
 # 【必装】hiddenbar - An ultra-light MacOS utility that helps hide menu bar icons
 brew install --cask hiddenbar
 
 # 【必装】Mos - A lightweight tool used to smooth scrolling and set scroll direction independently for your mouse on macOS
 brew install --cask mos
 
-# 【必装】react-native-debugger - The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools
-brew install --cask react-native-debugger
-
 # 【必装】HandShaker - Manage Your Android Phones at Ease 
 brew install --cask handshaker
-
-# 【必装】clashx - A rule based proxy For Mac base on Clash.
-brew install --cask clashx
-
 
 ```
 
