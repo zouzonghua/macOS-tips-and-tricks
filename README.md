@@ -31,7 +31,6 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 # 【必装】z - jump around
 git clone https://github.com/rupa/z.git $ZSH_CUSTOM/plugins/z
-Put something like this in your $HOME/.bashrc or $HOME/.zshrc:
 . $ZSH_CUSTOM/plugins/z/z.sh
 
 # 【必装】zsh-autosuggestions - Fish-like autosuggestions for zsh.
