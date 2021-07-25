@@ -43,7 +43,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 brew install tmux
 
 # 【必装】nnn - nnn (n³) is a full-featured terminal file manager. It's tiny, nearly 0-config and incredibly fast.
-brew intasll nnn
+brew install nnn
 
 # 【必装】unrar - 解压RAR工具
 brew install carlocab/personal/unrar
