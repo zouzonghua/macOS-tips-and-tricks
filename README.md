@@ -147,6 +147,8 @@ brew install --cask mos
 # 【必装】HandShaker - Manage Your Android Phones at Ease 
 brew install --cask handshaker
 
+brew install peco
+
 ```
 
 ## 开发相关
