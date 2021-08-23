@@ -48,6 +48,8 @@ brew install nnn
 # 【必装】unrar - 解压RAR工具
 brew install carlocab/personal/unrar
 
+brew install peco
+
 # 【必装】AdoptOpenJDK - 是一个由OpenJDK构建，并以免费软件的形式提供社区版的 OpenJDK 二进制包。 它至少提供 4 年的免费长期支持(LTS)。 CentOS7.5和EulerOS2.8操作系统在鲲鹏生态中可以完整运行AdoptOpenJDK的全部功能。
 brew tap AdoptOpenJDK/openjdk
 brew install adoptopenjdk8
@@ -63,6 +65,9 @@ nvm install --lts
 
 # 【必装】 yarn - 快速、可靠、安全的依赖管理工具。
 npm i -g yarn
+
+npm install -g commitizen cz-conventional-changelog
+echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
 
 # 【必装】MongoDB - 是一种面向文档的数据库管理系统，用C++等语言撰写而成，以解决应用程序开发社区中的大量现实问题。
 brew tap mongodb/brew
@@ -146,8 +151,6 @@ brew install --cask mos
 
 # 【必装】HandShaker - Manage Your Android Phones at Ease 
 brew install --cask handshaker
-
-brew install peco
 
 ```
 
