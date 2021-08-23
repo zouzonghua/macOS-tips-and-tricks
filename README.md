@@ -42,6 +42,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 # 【必装】tmux - is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached.
 brew install tmux
 
+# 【必装】neovim -Vim-fork focused on extensibility and usability
+brew install --HEAD luajit
+brew install --HEAD neovim
+
 # 【必装】nnn - nnn (n³) is a full-featured terminal file manager. It's tiny, nearly 0-config and incredibly fast.
 brew install nnn
 
@@ -66,7 +70,9 @@ nvm install --lts
 # 【必装】 yarn - 快速、可靠、安全的依赖管理工具。
 npm i -g yarn
 
-npm install -g commitizen cz-conventional-changelog
+npm i -g typescript typescript-language-server diagnostic-languageserver eslint_d
+
+npm i -g commitizen cz-conventional-changelog
 echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
 
 # 【必装】MongoDB - 是一种面向文档的数据库管理系统，用C++等语言撰写而成，以解决应用程序开发社区中的大量现实问题。
