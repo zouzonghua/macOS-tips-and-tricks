@@ -172,7 +172,7 @@ brew install --cask handshaker
 
 ```shell
 # 脚本安装 vim 配置
-sh <(curl -L https://github.com/zouzonghua/vim/raw/main/utils/install.sh)
+sh <(curl -L https://github.com/zouzonghua/nvim/raw/main/utils/install.sh)
 
 # 更新所有软件和开发包并删除过期包
 brew update && brew upgrade && brew cu -a -y && brew cleanup && brew cleanup --prune 0
