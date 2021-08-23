@@ -42,7 +42,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 # 【必装】tmux - is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached.
 brew install tmux
 
-# 【必装】neovim -Vim-fork focused on extensibility and usability
+# 【必装】kitty - Cross-platform, fast, feature-rich, GPU based terminal
+brew instll kitty
+
+# 【必装】neovim - Vim-fork focused on extensibility and usability
 brew install --HEAD luajit
 brew install --HEAD neovim
 
@@ -68,7 +71,7 @@ brew install nvm
 # 【必装】Node.js® - 是一个基于Chrome V8 引擎 的JavaScript 运行时。
 nvm install --lts
 
-# 【必装】 yarn - 快速、可靠、安全的依赖管理工具。
+# 【必装】 安装全局 npm 依赖
 npm i -g yarn
 
 npm i -g typescript typescript-language-server diagnostic-languageserver eslint_d
