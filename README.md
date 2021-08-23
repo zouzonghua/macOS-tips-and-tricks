@@ -186,6 +186,5 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 root@www.zouzonghua.cn
 ```
 ## 配置文件
 
-- [zsh](https://github.com/zouzonghua/.config/blob/main/.zshrc)
-- [tmux](https://github.com/zouzonghua/.config/blob/main/.tmux.conf)
-- [vim](https://github.com/zouzonghua/vim)
+- [dotfiles](https://github.com/zouzonghua/dotfiles)
+- [nvim](https://github.com/zouzonghua/nvim)
