@@ -48,6 +48,7 @@ brew instll kitty
 # 【必装】neovim - Vim-fork focused on extensibility and usability
 brew install --HEAD luajit
 brew install --HEAD neovim
+brew install ripgrep
 
 # 【必装】nnn - nnn (n³) is a full-featured terminal file manager. It's tiny, nearly 0-config and incredibly fast.
 brew install nnn
