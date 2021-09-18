@@ -26,18 +26,15 @@
 # 【必装】brew-cask-upgrade - is a command-line tool for upgrading every outdated app installed by Homebrew Cask.
 brew tap buo/cask-upgrade
 
-# 【必装】oh-my-zsh - 更强大的终端Shell
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 # 【必装】z - jump around
-git clone https://github.com/rupa/z.git $ZSH_CUSTOM/plugins/z
-. $ZSH_CUSTOM/plugins/z/z.sh
+git clone https://github.com/rupa/z.git $ZSH/plugins/z
+. ~/.zsh/plugins/z/z.sh
 
 # 【必装】zsh-autosuggestions - Fish-like autosuggestions for zsh.
-git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH/plugins/zsh-autosuggestions
 
 # 【必装】zsh-syntax-highlighting - Fish shell like syntax highlighting for Zsh.
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plugins/zsh-syntax-highlighting
 
 # 【必装】tmux - is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached.
 brew install tmux
