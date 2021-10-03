@@ -26,6 +26,9 @@
 # brew-cask-upgrade - is a command-line tool for upgrading every outdated app installed by Homebrew Cask.
 brew tap buo/cask-upgrade
 
+# git - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+brew install git
+
 # z - jump around
 git clone https://github.com/rupa/z.git $ZSH/plugins/z
 . ~/.zsh/plugins/z/z.sh
