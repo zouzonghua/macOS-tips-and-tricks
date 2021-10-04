@@ -105,7 +105,7 @@ brew install --cask robo-3t
 brew install --cask homebrew/cask-versions/sequel-pro-nightly
 
 # VMware Fusion - VMware Fusion是VMware为苹果电脑开发的虚拟机程序，它允许用户在中央处理器为英特尔的苹果电脑的MacOS操作系统上运行其他操作系统，例如Microsoft Windows、Linux、NetWare、Solaris等。VMware Fusion 1.0于2007年8月6日发布。
- brew install vmware-fusion
+brew install vmware-fusion
 
 # Google Chrome - 是由Google开发的免费网页浏览器。
 brew install --cask google-chrome
