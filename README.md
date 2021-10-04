@@ -63,7 +63,7 @@ brew install peco
 brew install tig
 
 # virtualbox - VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.
-berw instll virtualbox
+berw install virtualbox
 brew install virtualbox-extension-pack
 
 # macos-virtualbox - Push-button installer of macOS Catalina, Mojave, and High Sierra guests in Virtualbox for Windows, Linux, and macOS
