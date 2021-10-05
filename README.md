@@ -72,6 +72,9 @@ brew install virtualbox-extension-pack
 # macos-virtualbox - Push-button installer of macOS Catalina, Mojave, and High Sierra guests in Virtualbox for Windows, Linux, and macOS
 zsh -i <(curl -L https://raw.githubusercontent.com/myspaghetti/macos-virtualbox/master/macos-guest-virtualbox.sh)
 
+# squirrel - Rime for macOS
+berw install --cask squirrel
+
 # AdoptOpenJDK - 是一个由OpenJDK构建，并以免费软件的形式提供社区版的 OpenJDK 二进制包。 它至少提供 4 年的免费长期支持(LTS)。 CentOS7.5和EulerOS2.8操作系统在鲲鹏生态中可以完整运行AdoptOpenJDK的全部功能。
 brew tap AdoptOpenJDK/openjdk
 brew install adoptopenjdk8
