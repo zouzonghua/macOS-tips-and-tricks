@@ -99,7 +99,7 @@ nvm install --lts
 #  安装全局 npm 依赖
 npm i -g yarn
 
-npm i -g typescript typescript-language-server diagnostic-languageserver eslint_d
+npm i -g typescript typescript-language-server vscode-langservers-extracted diagnostic-languageserver eslint_d prettier stylelint
 
 npm i -g commitizen cz-conventional-changelog
 echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
