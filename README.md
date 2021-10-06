@@ -45,7 +45,12 @@ brew instll alacritty
 # neovim - Vim-fork focused on extensibility and usability
 brew install --HEAD luajit
 brew install --HEAD neovim
+
+# ripgrep - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
 brew install ripgrep
+
+# fg - A simple, fast and user-friendly alternative to 'find'
+brew install fd
 
 # nnn - nnn (n³) is a full-featured terminal file manager. It's tiny, nearly 0-config and incredibly fast.
 brew install nnn
