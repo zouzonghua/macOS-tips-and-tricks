@@ -53,6 +53,9 @@ brew install nnn
 # pfetch - A pretty system information tool written in POSIX sh.
 brew install pfetch
 
+# neofetch - A command-line system information tool written in bash 3.2+
+brew install neofetch
+
 # translate-shell - Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
 brew install translate-shell
 
