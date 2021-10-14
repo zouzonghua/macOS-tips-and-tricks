@@ -145,6 +145,12 @@ brew install --cask wechatwebdevtools
 # wechat - 一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。
 brew install --cask wechat
 
+# tencent-meeting - 腾讯20余年音视频通讯经验积累 匠心而成的云视频会议产品。
+brew install --cask tencent-meeting
+
+# zoom - Zoom Meetings (commonly shortened to Zoom, and stylized as zoom) is a proprietary video teleconferencing software program developed by Zoom Video Communications. The free plan allows up to 100 concurrent participants, with a 40-minute time restriction. Users have the option to upgrade by subscribing to a paid plan. The highest plan supports up to 1,000 concurrent participants for meetings lasting up to 30 hours
+brew install --cask zoom 
+
 # qq - I'm QQ - 每一天，乐在沟通。
 brew install --cask qq
 
