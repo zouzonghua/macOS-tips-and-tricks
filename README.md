@@ -73,6 +73,9 @@ brew install peco
 # tig - Text-mode interface for git
 brew install tig
 
+# mitmprox - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
+brew install mitmproxy
+
 # virtualbox - VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.
 berw install virtualbox
 brew install virtualbox-extension-pack
