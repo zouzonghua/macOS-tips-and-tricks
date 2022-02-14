@@ -142,6 +142,9 @@ brew install --cask typora
 # react-native-debugger - The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools
 brew install --cask react-native-debugger
 
+# proxyman - Modern and Delightful Web Debugging Proxy for macOS, iOS, and Android ⚡️
+brew install proxyman
+
 # wechatwebdevtools - 微信开发者工具，集成了公众号网页调试和小程序调试两种开发模式。
 brew install --cask wechatwebdevtools
 
