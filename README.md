@@ -64,6 +64,12 @@ brew install neofetch
 # translate-shell - Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
 brew install translate-shell
 
+# ledger - Double-entry accounting system with a command-line reporting interface
+brew install ledger
+
+# hledger - A reliable, user-friendly Plain Text Accounting tool with command line, terminal and web interfaces.
+brew install hledger
+
 # unrar - 解压RAR工具
 brew install carlocab/personal/unrar
 
