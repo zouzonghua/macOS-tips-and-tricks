@@ -70,6 +70,12 @@ brew install ledger
 # hledger - A reliable, user-friendly Plain Text Accounting tool with command line, terminal and web interfaces.
 brew install hledger
 
+# Beancount - Beancount: Double-Entry Accounting from Text Files.
+brew install beancount 
+
+# Fava - web interface for Beancount
+brew install fava
+
 # unrar - 解压RAR工具
 brew install carlocab/personal/unrar
 
