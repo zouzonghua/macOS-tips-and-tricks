@@ -42,6 +42,10 @@ brew install tmux
 # alacritty - A cross-platform, OpenGL terminal emulator.
 brew instll alacritty
 
+# git - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+brew install git 
+brew unlink git && brew link git
+
 # neovim - Vim-fork focused on extensibility and usability
 brew install --HEAD luajit
 brew install --HEAD neovim
