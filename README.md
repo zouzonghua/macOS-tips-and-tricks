@@ -28,7 +28,6 @@ brew tap buo/cask-upgrade
 
 # z - jump around
 git clone https://github.com/rupa/z.git $ZSH/plugins/z
-. ~/.zsh/plugins/z/z.sh
 
 # zsh-autosuggestions - Fish-like autosuggestions for zsh.
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH/plugins/zsh-autosuggestions
