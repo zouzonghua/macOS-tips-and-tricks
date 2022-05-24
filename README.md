@@ -238,10 +238,6 @@ sh <(curl -L https://github.com/zouzonghua/nvim/raw/lua/install.sh)
 # 脚本安装 dotfiles 
 sh <(curl -L https://github.com/zouzonghua/dotfiles/raw/main/install.sh)
 
-# 更新所有软件和开发包并删除过期包
-brew update && brew upgrade && brew cu -a -y && brew cleanup && brew cleanup --prune 0
-alias brewUpdate='brew update && brew upgrade && brew cu -a -y && brew cleanup && brew cleanup --prune 0'
-
 # 生成 ssh key 并加入 git 账户
 ssh-keygen # 一路回车即可
 
