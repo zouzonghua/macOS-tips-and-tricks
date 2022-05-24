@@ -233,8 +233,11 @@ brew install --cask handshaker
 ## 开发相关
 
 ```shell
-# 脚本安装 vim 配置
+# 脚本安装 nvim 配置
 sh <(curl -L https://github.com/zouzonghua/nvim/raw/lua/install.sh)
+
+# 脚本安装 dotfiles 
+sh <(curl -L https://github.com/zouzonghua/dotfiles/raw/main/install.sh)
 
 # 更新所有软件和开发包并删除过期包
 brew update && brew upgrade && brew cu -a -y && brew cleanup && brew cleanup --prune 0
