@@ -166,6 +166,9 @@ brew install --cask wechatwebdevtools
 # wechat - 一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。
 brew install --cask wechat
 
+# telegram - a new era of messaging
+brew install --cask telegram
+
 # tencent-meeting - 腾讯20余年音视频通讯经验积累 匠心而成的云视频会议产品。
 brew install --cask tencent-meeting
 
