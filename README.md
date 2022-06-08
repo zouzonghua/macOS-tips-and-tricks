@@ -184,6 +184,9 @@ brew install --cask tencent-lemon
 # spotify - Spotify is all the music you'll ever need.
 brew install --cask spotify
 
+# SpotMenu - Spotify and iTunes in your menu bar
+brew install --cask spotmenu
+
 # spotify-tui - Spotify for the terminal written in Rust 🚀
 brew install spotify-tui
 
