@@ -137,6 +137,9 @@ brew install --cask robo-3t
 # Sequel Pro - is a fast, easy-to-use Mac database management application for working with MySQL databases.
 brew install --cask homebrew/cask-versions/sequel-pro-nightly
 
+# Sequel Ace - is the "sequel" to the longtime macOS tool Sequel Pro. Sequel Ace is a fast, easy-to-use Mac database management application for working with MySQL & MariaDB databases.
+brew install --cask sequel-ace
+
 # VMware Fusion - VMware Fusion是VMware为苹果电脑开发的虚拟机程序，它允许用户在中央处理器为英特尔的苹果电脑的MacOS操作系统上运行其他操作系统，例如Microsoft Windows、Linux、NetWare、Solaris等。VMware Fusion 1.0于2007年8月6日发布。
 brew install vmware-fusion
 
