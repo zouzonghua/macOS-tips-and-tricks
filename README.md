@@ -40,7 +40,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plugins/
 brew install tmux
 
 # alacritty - A cross-platform, OpenGL terminal emulator.
-brew instll alacritty
+brew install alacritty
 
 # git - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 brew install git 
