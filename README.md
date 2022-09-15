@@ -53,6 +53,9 @@ brew unlink git && brew link git
 brew install --HEAD luajit
 brew install --HEAD neovim
 
+# wget - GNU Wget is a free software package for retrieving files using HTTP, HTTPS, FTP and FTPS, the most widely used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, cron jobs, terminals without X-Windows support, etc.
+brew install wget 
+
 # ripgrep - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
 brew install ripgrep
 
