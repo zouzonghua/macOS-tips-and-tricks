@@ -27,6 +27,9 @@
 # brew-cask-upgrade - is a command-line tool for upgrading every outdated app installed by Homebrew Cask.
 brew tap buo/cask-upgrade
 
+# rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 # z - jump around
 git clone https://github.com/rupa/z.git $ZSH/plugins/z
 
