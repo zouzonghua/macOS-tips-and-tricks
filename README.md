@@ -42,16 +42,12 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plugins/
 # tmux - is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached.
 brew install tmux
 
-# alacritty - A cross-platform, OpenGL terminal emulator.
-brew install alacritty
-
 # git - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 brew install git 
 brew unlink git && brew link git
 
 # neovim - Vim-fork focused on extensibility and usability
-brew install --HEAD luajit
-brew install --HEAD neovim
+brew install neovim
 
 # wget - GNU Wget is a free software package for retrieving files using HTTP, HTTPS, FTP and FTPS, the most widely used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, cron jobs, terminals without X-Windows support, etc.
 brew install wget 
@@ -94,6 +90,12 @@ brew install peco
 
 # tig - Text-mode interface for git
 brew install tig
+
+# alacritty - A cross-platform, OpenGL terminal emulator.
+brew install --cask alacritty
+
+# hammerspoon - Staggeringly powerful macOS desktop automation with Lua
+brew install --cask hammerspoon
 
 # mitmprox - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
 brew install mitmproxy
