@@ -91,6 +91,20 @@ brew install peco
 # tig - Text-mode interface for git
 brew install tig
 
+# nvm - 管理多个Node版本的工具。
+brew install nvm
+
+# Node.js® - 是一个基于Chrome V8 引擎 的JavaScript 运行时。
+nvm install --lts
+
+#  安装全局 npm 依赖
+npm i -g yarn
+
+npm i -g typescript typescript-language-server vscode-langservers-extracted diagnostic-languageserver eslint_d prettier stylelint
+
+npm i -g commitizen cz-conventional-changelog
+echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
+
 # alacritty - A cross-platform, OpenGL terminal emulator.
 brew install --cask alacritty
 
@@ -116,20 +130,6 @@ brew install adoptopenjdk8
 
 # docker - Docker 是一个开放源代码软件，是一个开放平台，用于开发应用、交付应用、运行应用。 Docker允许用户将基础设施中的应用单独分割出来，形成更小的颗粒，从而提高交付软件的速度。 Docker容器与虚拟机类似，但二者在原理上不同。
 brew install --cask docker
-
-# nvm - 管理多个Node版本的工具。
-brew install nvm
-
-# Node.js® - 是一个基于Chrome V8 引擎 的JavaScript 运行时。
-nvm install --lts
-
-#  安装全局 npm 依赖
-npm i -g yarn
-
-npm i -g typescript typescript-language-server vscode-langservers-extracted diagnostic-languageserver eslint_d prettier stylelint
-
-npm i -g commitizen cz-conventional-changelog
-echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
 
 # MongoDB - 是一种面向文档的数据库管理系统，用C++等语言撰写而成，以解决应用程序开发社区中的大量现实问题。
 brew tap mongodb/brew
