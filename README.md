@@ -111,6 +111,9 @@ brew install --cask alacritty
 # hammerspoon - Staggeringly powerful macOS desktop automation with Lua
 brew install --cask hammerspoon
 
+# karabiner-elements - Karabiner-Elements is a powerful utility for keyboard customization on macOS Sierra or later.
+brew install --cask karabiner-elements
+
 # mitmprox - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
 brew install mitmproxy
 
