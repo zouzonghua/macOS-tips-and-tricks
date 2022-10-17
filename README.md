@@ -252,6 +252,10 @@ brew install --cask mos
 # HandShaker - Manage Your Android Phones at Ease 
 brew install --cask handshaker
 
+# Calibre - Calibre is a cross-platform free and open-source suite of e-book software.
+brew install calibre --cask
+
+
 ```
 
 ## 开发相关
