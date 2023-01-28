@@ -283,4 +283,3 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 root@www.zouzonghua.cn
 ## 配置文件
 
 - [dotfiles](https://github.com/zouzonghua/dotfiles)
-- [nvim](https://github.com/zouzonghua/nvim)
