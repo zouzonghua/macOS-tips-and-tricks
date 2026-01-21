@@ -24,239 +24,128 @@
 # 安装 Homebrew - MacOS包管理器(命令行轻松装软件)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-# brew-cask-upgrade - is a command-line tool for upgrading every outdated app installed by Homebrew Cask.
-brew tap buo/cask-upgrade
+# ==========================================
 
-# Node version management
-curl -L https://git.io/n-install | bash
+# 开发工具 (Development Tools)
 
-# rust
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# ==========================================
+ 
+# Android Studio - Android平台开发集成环境。
 
-# z - jump around
-git clone https://github.com/rupa/z.git $ZSH/plugins/z
-
-# zsh-autosuggestions - Fish-like autosuggestions for zsh.
-git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH/plugins/zsh-autosuggestions
-
-# zsh-syntax-highlighting - Fish shell like syntax highlighting for Zsh.
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plugins/zsh-syntax-highlighting
-
-# tmux - is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached.
-brew install tmux
-
-# git - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-brew install git 
-brew unlink git && brew link git
-
-# neovim - Vim-fork focused on extensibility and usability
-brew install neovim
-
-# wget - GNU Wget is a free software package for retrieving files using HTTP, HTTPS, FTP and FTPS, the most widely used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, cron jobs, terminals without X-Windows support, etc.
-brew install wget 
-
-# ripgrep - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
-brew install ripgrep
-
-# fg - A simple, fast and user-friendly alternative to 'find'
-brew install fd
-
-# nnn - nnn (n³) is a full-featured terminal file manager. It's tiny, nearly 0-config and incredibly fast.
-brew install nnn
-
-# pfetch - A pretty system information tool written in POSIX sh.
-brew install pfetch
-
-# neofetch - A command-line system information tool written in bash 3.2+
-brew install neofetch
-
-# translate-shell - Command-line translator using Google Translate, Bing Translator, Yandex.Translate, etc.
-brew install translate-shell
-
-# ledger - Double-entry accounting system with a command-line reporting interface
-brew install ledger
-
-# hledger - A reliable, user-friendly Plain Text Accounting tool with command line, terminal and web interfaces.
-brew install hledger
-
-# Beancount - Beancount: Double-Entry Accounting from Text Files.
-brew install beancount 
-
-# Fava - web interface for Beancount
-brew install fava
-
-# unrar - 解压RAR工具
-brew install carlocab/personal/unrar
-
-# peco - Simplistic interactive filtering tool
-brew install peco
-
-# tig - Text-mode interface for git
-brew install tig
-
-# nvm - 管理多个Node版本的工具。
-brew install nvm
-
-# Node.js® - 是一个基于Chrome V8 引擎 的JavaScript 运行时。
-nvm install --lts
-
-#  安装全局 npm 依赖
-npm i -g yarn
-
-npm i -g typescript typescript-language-server vscode-langservers-extracted diagnostic-languageserver eslint_d prettier stylelint
-
-npm i -g commitizen cz-conventional-changelog
-echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
-
-# alacritty - A cross-platform, OpenGL terminal emulator.
-brew install --cask alacritty
-
-# hammerspoon - Staggeringly powerful macOS desktop automation with Lua
-brew install --cask hammerspoon
-
-# karabiner-elements - Karabiner-Elements is a powerful utility for keyboard customization on macOS Sierra or later.
-brew install --cask karabiner-elements
-
-# mitmprox - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
-brew install mitmproxy
-
-# virtualbox - VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.
-berw install virtualbox
-brew install virtualbox-extension-pack
-
-# macos-virtualbox - Push-button installer of macOS Catalina, Mojave, and High Sierra guests in Virtualbox for Windows, Linux, and macOS
-zsh -i <(curl -L https://raw.githubusercontent.com/myspaghetti/macos-virtualbox/master/macos-guest-virtualbox.sh)
-
-# squirrel - Rime for macOS
-berw install --cask squirrel
-
-# AdoptOpenJDK - 是一个由OpenJDK构建，并以免费软件的形式提供社区版的 OpenJDK 二进制包。 它至少提供 4 年的免费长期支持(LTS)。 CentOS7.5和EulerOS2.8操作系统在鲲鹏生态中可以完整运行AdoptOpenJDK的全部功能。
-brew tap AdoptOpenJDK/openjdk
-brew install adoptopenjdk8
-
-# docker - Docker 是一个开放源代码软件，是一个开放平台，用于开发应用、交付应用、运行应用。 Docker允许用户将基础设施中的应用单独分割出来，形成更小的颗粒，从而提高交付软件的速度。 Docker容器与虚拟机类似，但二者在原理上不同。
-brew install --cask docker
-
-# MongoDB - 是一种面向文档的数据库管理系统，用C++等语言撰写而成，以解决应用程序开发社区中的大量现实问题。
-brew tap mongodb/brew
-brew install mongodb-community
-brew services start mongodb-community
-
-# MySQL - MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方面 MySQL 是最好的 RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。。
-brew install mysql@5.7
-
-# Robo 3T - Native cross-platform MongoDB management tool.
-brew install --cask robo-3t
-
-# Sequel Pro - is a fast, easy-to-use Mac database management application for working with MySQL databases.
-brew install --cask homebrew/cask-versions/sequel-pro-nightly
-
-# Sequel Ace - is the "sequel" to the longtime macOS tool Sequel Pro. Sequel Ace is a fast, easy-to-use Mac database management application for working with MySQL & MariaDB databases.
-brew install --cask sequel-ace
-
-# VMware Fusion - VMware Fusion是VMware为苹果电脑开发的虚拟机程序，它允许用户在中央处理器为英特尔的苹果电脑的MacOS操作系统上运行其他操作系统，例如Microsoft Windows、Linux、NetWare、Solaris等。VMware Fusion 1.0于2007年8月6日发布。
-brew install vmware-fusion
-
-# Google Chrome - 是由Google开发的免费网页浏览器。
-brew install --cask google-chrome
-
-# Visual Studio Code - is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
-brew install --cask visual-studio-code
-
-# arduino - The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board. This software can be used with any Arduino board.
-
-brew install --cask arduino
-
-# IntelliJ IDEA - 是一种商业化销售的Java集成开发环境工具软件，由JetBrains软件公司开发，提供Apache 2.0开放式授权的社区版本以及专有软件的商业版本，开发者可选择其所需来下载使用。
-brew install --cask intellij-idea-ce
-
-# Android Studio是一个为Android平台开发程序的集成开发环境。2013年5月16日在Google I/O上发布，可供开发者免费使用。 2013年5月发布早期预览版本，版本号为0.1。2014年6月发布0.8版本，至此进入beta阶段。第一个稳定版本1.0于2014年12月8日发布。
 brew install --cask android-studio
+ 
+# Cursor - An editor made for programming with AI.
 
-# Typora - 是一款支持实时预览的Markdown 文本编辑器。
-brew install --cask typora
+brew install --cask cursor
+ 
+# DBeaver Community - Free universal database tool and SQL client.
 
-# react-native-debugger - The standalone app based on official debugger of React Native, and includes React Inspector / Redux DevTools
-brew install --cask react-native-debugger
+brew install --cask dbeaver-community
+ 
+# Emacs - GNU Emacs text editor (GUI version).
 
-# proxyman - Modern and Delightful Web Debugging Proxy for macOS, iOS, and Android ⚡️
-brew install proxyman
+brew install --cask emacs-app
+ 
+# Flutter - Google's UI toolkit for building natively compiled applications.
 
-# wechatwebdevtools - 微信开发者工具，集成了公众号网页调试和小程序调试两种开发模式。
-brew install --cask wechatwebdevtools
+brew install --cask flutter
+ 
+# IntelliJ IDEA - 强大的Java集成开发环境 (Ultimate版本)。
 
-# wechat - 一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。
-brew install --cask wechat
+brew install --cask intellij-idea
+ 
+# Antigravity - Internal Agent Application.
 
-# telegram - a new era of messaging
+brew install --cask antigravity
+ 
+# Antigravity Tools - Internal Tools.
+
+brew install --cask antigravity-tools
+ 
+# ==========================================
+
+# 终端与命令行 (Terminal & CLI)
+
+# ==========================================
+ 
+# tmux - Terminal multiplexer. Allows multiple sessions and window splitting in a single terminal.
+
+brew install tmux
+ 
+# ==========================================
+
+# 浏览器 (Browsers)
+
+# ==========================================
+ 
+# Google Chrome - 是由Google开发的免费网页浏览器。
+
+brew install --cask google-chrome
+ 
+# Firefox - Free and open-source web browser developed by the Mozilla Foundation.
+
+brew install --cask firefox
+ 
+# ==========================================
+
+# 社交通讯 (Communication)
+
+# ==========================================
+ 
+# Telegram - a new era of messaging
+
 brew install --cask telegram
+ 
+# WeChat (微信) - 一款跨平台的通讯工具。
 
-# tencent-meeting - 腾讯20余年音视频通讯经验积累 匠心而成的云视频会议产品。
-brew install --cask tencent-meeting
+brew install --cask wechat
+ 
+# QQ - I'm QQ - 每一天，乐在沟通。
 
-# zoom - Zoom Meetings (commonly shortened to Zoom, and stylized as zoom) is a proprietary video teleconferencing software program developed by Zoom Video Communications. The free plan allows up to 100 concurrent participants, with a 40-minute time restriction. Users have the option to upgrade by subscribing to a paid plan. The highest plan supports up to 1,000 concurrent participants for meetings lasting up to 30 hours
-brew install --cask zoom 
-
-# qq - I'm QQ - 每一天，乐在沟通。
 brew install --cask qq
+ 
+# Microsoft Teams - Communication and collaboration platform.
 
-# tencent-lemon - 全新Mac清理工具，实时了解Mac系统状况。
-brew install --cask tencent-lemon
+brew install --cask microsoft-teams
+ 
+# ==========================================
 
-# spotify - Spotify is all the music you'll ever need.
-brew install --cask spotify
+# 网络与系统工具 (Network & System Utilities)
 
-# SpotMenu - Spotify and iTunes in your menu bar
-brew install --cask spotmenu
+# ==========================================
+ 
+# WinBox - MikroTik RouterOS GUI configurator.
 
-# spotify-tui - Spotify for the terminal written in Rust 🚀
-brew install spotify-tui
+brew install --cask winbox
+ 
+# Aerospace - An i3-like tiling window manager for macOS.
 
-# neteasemusic - 网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。
-brew install --cask neteasemusic
+brew install --cask aerospace
+ 
+# Karabiner-Elements - A powerful utility for keyboard customization on macOS.
 
-# musicbox - 网易云音乐命令行版本
-pip3 install NetEase-MusicBox
-brew install mpg123
+brew install --cask karabiner-elements
+ 
+# Mos - A lightweight tool used to smooth scrolling and set scroll direction independently for your mouse.
 
-# wpsoffice - Free Editor for all-in-one Office Suite: Word, PDF, Excel, PowerPoint with wonderful editing experience.
-brew install --cask wpsoffice
-
-# dingtalk - Ding Talk, Make Work and Study Easy
-brew install --cask dingtalk
-
-# IINA - is born to be a modern macOS application, from its framework to the user interface. It adopts the post-Yosemite design language of macOS and keeps up the pace of new technologies like Force Touch, Touch Bar, and Picture-in-Picture.
-brew install --cask iina
-
-# Rectangle - Move and resize windows in macOS using keyboard shortcuts or snap areas.
-brew install --cask rectangle
-
-# ClashX - A rule based proxy For Mac base on Clash
-brew install --cask clashx
-
-# V2rayU - 基于v2ray核心的mac版客户端,用于科学上网,使用swift编写,支持vmess,shadowsocks,socks5等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等
-brew install --cask v2rayu
-
-# Tunnelblick - Tunnelblick是OS X和macOS上用于OpenVPN（虚拟专用网络）的免费开源图形用户界面。它提供对OpenVPN客户端和/或服务器连接的轻松控制。
-brew install --cask tunnelblick
-
-# bob - Bob 是一款 Mac 端翻译软件，翻译方式支持划词翻译和截图翻译，翻译引擎支持有道翻译、百度翻译和谷歌翻译。
-brew install --cask bob
-
-# istat-menus - istat-menus  An advanced Mac system monitor for your menubar
-brew install --cask istat-menus
-
-# hiddenbar - An ultra-light MacOS utility that helps hide menu bar icons
-brew install --cask hiddenbar
-
-# Mos - A lightweight tool used to smooth scrolling and set scroll direction independently for your mouse on macOS
 brew install --cask mos
+ 
+# Tencent Lemon (腾讯柠檬清理) - 全新Mac清理工具，实时了解Mac系统状况。
 
-# HandShaker - Manage Your Android Phones at Ease 
-brew install --cask handshaker
+brew install --cask tencent-lemon
+ 
+# BetterDisplay - Display management tool (Resolution, XDR brightness, etc.).
 
-# Calibre - Calibre is a cross-platform free and open-source suite of e-book software.
-brew install calibre --cask
+brew install --cask betterdisplay
+ 
+# Ice - Powerful menu bar manager for macOS (similar to Bartender).
+
+brew install --cask jordanbaird-ice
+ 
+# Battery Toolkit - App to manage battery charging.
+
+brew install --cask battery-toolkit
+ 
 
 
 ```
