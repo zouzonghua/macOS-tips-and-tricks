@@ -25,129 +25,99 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # ==========================================
-
 # 开发工具 (Development Tools)
-
 # ==========================================
- 
-# Android Studio - Android平台开发集成环境。
 
-brew install --cask android-studio
- 
+# Visual Studio Code - Code editing. Redefined.
+brew install --cask visual-studio-code
+
 # Cursor - An editor made for programming with AI.
-
 brew install --cask cursor
- 
+
+# Android Studio - Android平台开发集成环境。
+brew install --cask android-studio
+
 # DBeaver Community - Free universal database tool and SQL client.
-
 brew install --cask dbeaver-community
- 
+
 # Emacs - GNU Emacs text editor (GUI version).
-
 brew install --cask emacs-app
- 
+
 # Flutter - Google's UI toolkit for building natively compiled applications.
-
 brew install --cask flutter
- 
+
 # IntelliJ IDEA - 强大的Java集成开发环境 (Ultimate版本)。
-
 brew install --cask intellij-idea
- 
+
 # Antigravity - Internal Agent Application.
-
 brew install --cask antigravity
- 
+
 # Antigravity Tools - Internal Tools.
-
 brew install --cask antigravity-tools
- 
-# ==========================================
 
+# ==========================================
 # 终端与命令行 (Terminal & CLI)
-
 # ==========================================
- 
+
 # tmux - Terminal multiplexer. Allows multiple sessions and window splitting in a single terminal.
-
 brew install tmux
- 
-# ==========================================
 
+# ==========================================
 # 浏览器 (Browsers)
-
 # ==========================================
- 
+
 # Google Chrome - 是由Google开发的免费网页浏览器。
-
 brew install --cask google-chrome
- 
+
 # Firefox - Free and open-source web browser developed by the Mozilla Foundation.
-
 brew install --cask firefox
- 
-# ==========================================
 
+# ==========================================
 # 社交通讯 (Communication)
-
 # ==========================================
- 
+
 # Telegram - a new era of messaging
-
 brew install --cask telegram
- 
+
 # WeChat (微信) - 一款跨平台的通讯工具。
-
 brew install --cask wechat
- 
+
 # QQ - I'm QQ - 每一天，乐在沟通。
-
 brew install --cask qq
- 
+
 # Microsoft Teams - Communication and collaboration platform.
-
 brew install --cask microsoft-teams
- 
-# ==========================================
 
+# ==========================================
 # 网络与系统工具 (Network & System Utilities)
-
 # ==========================================
- 
+
+# OrbStack - Fast, light, and easy way to run Docker containers and Linux machines.
+brew install --cask orbstack
+
 # WinBox - MikroTik RouterOS GUI configurator.
-
 brew install --cask winbox
- 
+
 # Aerospace - An i3-like tiling window manager for macOS.
-
 brew install --cask aerospace
- 
+
 # Karabiner-Elements - A powerful utility for keyboard customization on macOS.
-
 brew install --cask karabiner-elements
- 
+
 # Mos - A lightweight tool used to smooth scrolling and set scroll direction independently for your mouse.
-
 brew install --cask mos
- 
+
 # Tencent Lemon (腾讯柠檬清理) - 全新Mac清理工具，实时了解Mac系统状况。
-
 brew install --cask tencent-lemon
- 
+
 # BetterDisplay - Display management tool (Resolution, XDR brightness, etc.).
-
 brew install --cask betterdisplay
- 
+
 # Ice - Powerful menu bar manager for macOS (similar to Bartender).
-
 brew install --cask jordanbaird-ice
- 
+
 # Battery Toolkit - App to manage battery charging.
-
 brew install --cask battery-toolkit
- 
-
-
 ```
 
 ## 开发相关
