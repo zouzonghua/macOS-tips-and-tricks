@@ -8,11 +8,6 @@
 - 三指拖移: 系统偏好设置 - 辅助功能 - 指针控制 - 触控板选项 - 启用拖移 - 三指拖移
 - 取消自动重新排列空间: 系统偏好设置 - 调度中心 - 取消勾选 `根据最近使用情况自动重新排列空间`
 - Tab 键移动焦点: 系统偏好设置 - 键盘 - 快捷键 - 全键盘控制 `所有控制`
-- 控制音频切换: 系统偏好设置 - 声音 - 在菜单中显示音量
-- 修改密码: 系统偏好设置 - 用户与群组 - 更改密码
-- 修改用户名: 系统偏好设置 - 用户与群组 - 点击左下角解锁 - 用户名上双指轻点 - 高级选项
-- 修改电脑名称: 系统偏好设置 - 共享 - 电脑名称
-- 修改主机名: sudo scutil --set HostName "zonghua's MacBook Pro"
 
 ## 常见问题
 
@@ -22,7 +17,7 @@
 
 ```shell
 # 安装 Homebrew - MacOS包管理器(命令行轻松装软件)
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # ==========================================
 # 开发工具 (Development Tools)
@@ -34,11 +29,11 @@ brew install --cask visual-studio-code
 # Cursor - An editor made for programming with AI.
 brew install --cask cursor
 
+# Antigravity - Internal Agent Application.
+brew install --cask antigravity
+
 # Android Studio - Android平台开发集成环境。
 brew install --cask android-studio
-
-# DBeaver Community - Free universal database tool and SQL client.
-brew install --cask dbeaver-community
 
 # Emacs - GNU Emacs text editor (GUI version).
 brew install --cask emacs-app
@@ -49,11 +44,22 @@ brew install --cask flutter
 # IntelliJ IDEA - 强大的Java集成开发环境 (Ultimate版本)。
 brew install --cask intellij-idea
 
-# Antigravity - Internal Agent Application.
-brew install --cask antigravity
+# ==========================================
+# 数据库与管理工具 (Database & Management Tools)
+# ==========================================
 
-# Antigravity Tools - Internal Tools.
-brew install --cask antigravity-tools
+# DBeaver Community - 通用数据库图形客户端。
+brew install --cask dbeaver-community
+
+# RedisInsight - Redis官方可视化工具。
+brew install --cask redisinsight
+
+# ==========================================
+# 笔记与知识管理 (Notes & Knowledge Management)
+# ==========================================
+
+# Obsidian - A powerful knowledge base that works on top of a local folder of plain text Markdown files.
+brew install --cask obsidian
 
 # ==========================================
 # 终端与命令行 (Terminal & CLI)
