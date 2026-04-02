@@ -104,6 +104,9 @@ brew install --cask orbstack
 # WinBox - MikroTik RouterOS GUI configurator.
 brew install --cask winbox
 
+# Tunnelblick - Tunnelblick是OS X和macOS上用于OpenVPN（虚拟专用网络）的免费开源图形用户界面。它提供对OpenVPN客户端和/或服务器连接的轻松控制。
+brew install --cask tunnelblick
+
 # Aerospace - An i3-like tiling window manager for macOS.
 brew install --cask aerospace
 
