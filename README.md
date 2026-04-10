@@ -68,6 +68,9 @@ brew install --cask obsidian
 # tmux - Terminal multiplexer. Allows multiple sessions and window splitting in a single terminal.
 brew install tmux
 
+# Alacritty - A fast, cross-platform, OpenGL terminal emulator.
+brew install --cask alacritty
+
 # ==========================================
 # 浏览器 (Browsers)
 # ==========================================
