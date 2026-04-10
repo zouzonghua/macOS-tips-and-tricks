@@ -141,23 +141,10 @@ brew install --cask battery-toolkit
 ## 开发相关
 
 ```shell
-# 脚本安装 nvim 配置
-sh <(curl -L https://github.com/zouzonghua/nvim/raw/lua/install.sh)
+git clone https://github.com/zouzonghua/dotfiles.git ~/personal/dotfiles
+cd ~/personal/dotfiles && make
+git remote set-url origin git@github-personal:zouzonghua/dotfiles.git
 
-# 脚本安装 dotfiles 
-sh <(curl -L https://github.com/zouzonghua/dotfiles/raw/main/install.sh)
-
-# 生成 ssh key 并加入 git 账户
-ssh-keygen # 一路回车即可
-
-# 粘贴到自己 git 账号设置里的 ssh-key
-cat ~/.ssh/id_rsa.pub | clipcopy
-
-# 配置用户信息
-git config --global user.name "zouzonghua"
-git config --global user.email "zouzonghua.cn@gmail.com"
-
-# 粘贴到终端配置 ssh 免密登陆服务器
 ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 root@www.zouzonghua.cn
 ```
 ## 配置文件
