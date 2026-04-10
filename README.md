@@ -100,6 +100,9 @@ brew install --cask microsoft-teams
 # LocalSend - A cross-platform file sharing app.
 brew install --cask localsend
 
+# XMind - Mind mapping and brainstorming tool.
+brew install --cask xmind
+
 # ==========================================
 # 网络与系统工具 (Network & System Utilities)
 # ==========================================
