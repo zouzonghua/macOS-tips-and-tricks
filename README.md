@@ -48,10 +48,10 @@ brew install --cask intellij-idea
 # 数据库与管理工具 (Database & Management Tools)
 # ==========================================
 
-# DBeaver Community - 通用数据库图形客户端。
+# DBeaver Community - General-purpose GUI database client.
 brew install --cask dbeaver-community
 
-# redis-insight - Redis官方可视化工具。
+# redis-insight - Redis GUI client.
 brew install --cask redis-insight
 
 # ==========================================
@@ -75,7 +75,7 @@ brew install --cask alacritty
 # 浏览器 (Browsers)
 # ==========================================
 
-# Google Chrome - 是由Google开发的免费网页浏览器。
+# Google Chrome - Free web browser developed by Google.
 brew install --cask google-chrome
 
 # Firefox - Free and open-source web browser developed by the Mozilla Foundation.
@@ -85,19 +85,19 @@ brew install --cask firefox
 # 社交通讯 (Communication)
 # ==========================================
 
-# Telegram - a new era of messaging
+# Telegram - Messaging app with a focus on speed and privacy.
 brew install --cask telegram
 
-# WeChat (微信) - 一款跨平台的通讯工具。
+# WeChat - Cross-platform communication app.
 brew install --cask wechat
 
-# QQ - I'm QQ - 每一天，乐在沟通。
+# QQ - Messaging and social platform.
 brew install --cask qq
 
 # Microsoft Teams - Communication and collaboration platform.
 brew install --cask microsoft-teams
 
-# LocalSend - A cross-platform file sharing app.
+# LocalSend - Cross-platform file sharing app.
 brew install --cask localsend
 
 # XMind - Mind mapping and brainstorming tool.
@@ -113,7 +113,7 @@ brew install --cask orbstack
 # WinBox - MikroTik RouterOS GUI configurator.
 brew install --cask winbox
 
-# Tunnelblick - Tunnelblick是OS X和macOS上用于OpenVPN（虚拟专用网络）的免费开源图形用户界面。它提供对OpenVPN客户端和/或服务器连接的轻松控制。
+# Tunnelblick - Open-source OpenVPN client GUI for macOS.
 brew install --cask tunnelblick
 
 # Aerospace - An i3-like tiling window manager for macOS.
@@ -125,7 +125,7 @@ brew install --cask karabiner-elements
 # Mos - A lightweight tool used to smooth scrolling and set scroll direction independently for your mouse.
 brew install --cask mos
 
-# Tencent Lemon (腾讯柠檬清理) - 全新Mac清理工具，实时了解Mac系统状况。
+# Tencent Lemon - Mac cleanup utility with live system status.
 brew install --cask tencent-lemon
 
 # BetterDisplay - Display management tool (Resolution, XDR brightness, etc.).
