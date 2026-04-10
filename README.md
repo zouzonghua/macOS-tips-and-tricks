@@ -51,8 +51,8 @@ brew install --cask intellij-idea
 # DBeaver Community - 通用数据库图形客户端。
 brew install --cask dbeaver-community
 
-# RedisInsight - Redis官方可视化工具。
-brew install --cask redisinsight
+# redis-insight - Redis官方可视化工具。
+brew install --cask redis-insight
 
 # ==========================================
 # 笔记与知识管理 (Notes & Knowledge Management)
@@ -96,6 +96,9 @@ brew install --cask qq
 
 # Microsoft Teams - Communication and collaboration platform.
 brew install --cask microsoft-teams
+
+# LocalSend - A cross-platform file sharing app.
+brew install --cask localsend
 
 # ==========================================
 # 网络与系统工具 (Network & System Utilities)
