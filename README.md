@@ -68,6 +68,12 @@ brew install --cask obsidian
 # tmux - Terminal multiplexer. Allows multiple sessions and window splitting in a single terminal.
 brew install tmux
 
+# lazygit - Simple terminal UI for git commands.
+brew install lazygit
+
+# nnn - The unorthodox terminal file manager.
+brew install nnn
+
 # Alacritty - A fast, cross-platform, OpenGL terminal emulator.
 brew install --cask alacritty
 
