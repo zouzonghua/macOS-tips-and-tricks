@@ -130,6 +130,9 @@ brew install --cask winbox
 # Tunnelblick - Open-source OpenVPN client GUI for macOS.
 brew install --cask tunnelblick
 
+# Tailscale - Zero config VPN. An easy way to connect your devices.
+brew install --cask tailscale
+
 # Aerospace - An i3-like tiling window manager for macOS.
 brew install --cask aerospace
 
