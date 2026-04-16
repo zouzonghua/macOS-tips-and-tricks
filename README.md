@@ -62,6 +62,13 @@ brew install --cask redis-insight
 brew install --cask obsidian
 
 # ==========================================
+# 设计工具 (Design Tools)
+# ==========================================
+
+# Figma - Collaborative interface design tool.
+brew install --cask figma
+
+# ==========================================
 # 终端与命令行 (Terminal & CLI)
 # ==========================================
 
