@@ -74,8 +74,9 @@ brew install lazygit
 # nnn - The unorthodox terminal file manager.
 brew install nnn
 
-# Alacritty - A fast, cross-platform, OpenGL terminal emulator.
-brew install --cask alacritty
+
+# Kitty - A fast, feature-rich, GPU-based terminal emulator.
+brew install --cask kitty
 
 # ==========================================
 # 浏览器 (Browsers)
@@ -142,6 +143,9 @@ brew install --cask jordanbaird-ice
 
 # Battery Toolkit - App to manage battery charging.
 brew install --cask battery-toolkit
+
+# RustDesk - Remote desktop and remote support tool.
+brew install --cask rustdesk
 ```
 
 ## 开发相关
