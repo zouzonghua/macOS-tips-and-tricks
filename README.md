@@ -44,6 +44,12 @@ brew install --cask flutter
 # IntelliJ IDEA - 强大的Java集成开发环境 (Ultimate版本)。
 brew install --cask intellij-idea
 
+# nvm - Node.js version manager.
+brew install nvm
+
+# Go - The Go programming language.
+brew install go
+
 # ==========================================
 # 数据库与管理工具 (Database & Management Tools)
 # ==========================================
@@ -84,6 +90,12 @@ brew install nnn
 
 # Kitty - A fast, feature-rich, GPU-based terminal emulator.
 brew install --cask kitty
+
+# fastfetch - A maintained, feature-rich and performance oriented, neofetch like system information tool.
+brew install fastfetch
+
+# htop - Interactive process viewer.
+brew install htop
 
 # ==========================================
 # 浏览器 (Browsers)
