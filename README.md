@@ -143,7 +143,7 @@ brew install --cask winbox
 brew install --cask tunnelblick
 
 # Tailscale - Zero config VPN. An easy way to connect your devices.
-brew install --cask tailscale
+brew install --cask tailscale-app
 
 # Aerospace - An i3-like tiling window manager for macOS.
 brew install --cask aerospace
