@@ -142,6 +142,9 @@ brew install --cask winbox
 # Tunnelblick - Open-source OpenVPN client GUI for macOS.
 brew install --cask tunnelblick
 
+# Cloudflare WARP - Cloudflare network client for WARP and Zero Trust access.
+brew install --cask cloudflare-warp
+
 # Tailscale - Zero config VPN. An easy way to connect your devices.
 brew install --cask tailscale-app
 
